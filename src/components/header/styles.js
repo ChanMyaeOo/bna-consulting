@@ -43,12 +43,14 @@ const useStyles = makeStyles((theme) => ({
     },
     menuIcon: {
         fontSize: '40px',
-        border: '1px solid #000',
+        border: '1px solid #fff',
         borderRadius: '50%',
         position: 'absolute',
         top: 0,
         left: 0,
-        display: 'none'
+        display: 'none',
+        zIndex: '1000',
+        color: '#fff'
     },
 
     closeMenu: {
@@ -66,6 +68,7 @@ const useStyles = makeStyles((theme) => ({
         height: '100%',
         background: "rgba(0,0,0,0.7)",
         display: 'none',
+        zIndex: '1000',
     },
     resMenu: {
         background: '#000',

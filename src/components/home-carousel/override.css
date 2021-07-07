@@ -1,0 +1,10 @@
+/* override carousel arrow */
+.control-arrow {
+    height: fit-content !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin: 0 20px;
+    opacity: 0.8;
+}
