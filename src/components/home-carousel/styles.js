@@ -9,14 +9,14 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        height: '70vh'
+        height: '500px'
     },
     carouselItem2: {
         background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${HeroImg2})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        height: '70vh'
+        height: '420px'
     },
 
     headerWrapper: {
