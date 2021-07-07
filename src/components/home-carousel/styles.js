@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        height: '420px'
+        height: '500px'
     },
 
     headerWrapper: {

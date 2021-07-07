@@ -9,7 +9,7 @@ const HomeCarousel = () => {
     return (
         <div>
             <Carousel
-                autoPlay={false}
+                autoPlay={true}
                 infiniteLoop={true}
                 showStatus={false}
                 showThumbs={false}
