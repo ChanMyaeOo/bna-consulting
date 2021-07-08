@@ -27,13 +27,13 @@ const HomeAbout = () => {
 
                 <div className={classes.contentWrap}>
                 <div className={classes.topContent}>
-                    <div >--&gt; The best service</div>
-                    <div>--&gt; Competitive and fair pricing</div>
+                    <div >-&gt; The best service</div>
+                    <div>-&gt; Competitive and fair pricing</div>
                 </div>
 
                 <div className={classes.bottomContent}>
-                    <div>--&gt; Peace of mind</div>
-                    <div>--&gt; Easy availability</div>
+                    <div>-&gt; Peace of mind</div>
+                    <div>-&gt; Easy availability</div>
                 </div>
                 </div>
 

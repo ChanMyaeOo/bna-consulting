@@ -50,6 +50,46 @@ const useStyles = makeStyles((theme) => ({
     },
     statusName: {
         fontWeight: 'bold'
+    },
+    [theme.breakpoints.down('sm')]: {
+        title: {
+            fontSize: '24px',
+            width: '80%'
+        },
+        aboutImg: {
+            width: '354px',
+            height: '236px'
+        },
+        status: {
+            height: '50%',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+        },
+        contentWrap: {
+            flexDirection: 'column'
+        },
+        bottomContent: {
+            marginLeft: 0
+        }
+    },
+    [theme.breakpoints.down('xs')]: {
+        about: {
+            flexDirection: 'column'
+        },
+        content: {
+            paddingRight: 0
+        },
+        title: {
+            width: '100%'
+        },
+        aboutRight: {
+            marginTop: '30px'
+        },
+        status: {
+            margin: '35px 0',
+            height: '340px',
+        }
     }
 }));
 

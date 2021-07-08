@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     storyContent: {
         lineHeight: "1.5rem",
         color: "#fff",
+        marginBottom: '20px'
     },
     icon1: {
         margin: "25px 25px 25px 0",
@@ -51,6 +52,7 @@ const useStyles = makeStyles((theme) => ({
     approachContent: {
         lineHeight: "1.5rem",
         color: "#fff",
+        marginBottom: '20px'
     },
     missionWrap: {
         display: "flex",
@@ -68,6 +70,7 @@ const useStyles = makeStyles((theme) => ({
     missionContent: {
         lineHeight: "1.5rem",
         color: "#fff",
+        marginBottom: '20px'
     },
     [theme.breakpoints.down('xs')]: {
         homeBoxWrap: {
