@@ -2,10 +2,11 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
     homeServiceWrap: {
-        width: '95%',
+        width: '100%',
         margin: '0 auto',
         marginTop: '40px',
-        background: '#f2f2f2'
+        background: '#f2f2f2',
+        paddingBottom: '60px'
     },
 
     headerWrap: {
