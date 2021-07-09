@@ -4,6 +4,7 @@ import HomeBox from '../../components/home-box/HomeBox'
 import HomeAbout from '../../components/home-about/HomeAbout'
 import HomeService from '../../components/home-service/HomeService'
 import Testimonials from '../../components/testimonials/Testimonials'
+import MapContact from '../../components/map-contact/MapContact'
 
 const home = () => {
     return (
@@ -13,6 +14,7 @@ const home = () => {
             <HomeAbout />
             <HomeService />
             <Testimonials />
+            <MapContact />
         </div>
     )
 }
