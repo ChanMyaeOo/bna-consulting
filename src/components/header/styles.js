@@ -38,7 +38,11 @@ const useStyles = makeStyles((theme) => ({
         height: '65px',
         "& > li": {
             listStyle: 'none',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            "& > a": {
+                textDecoration: 'none',
+                color: '#000'
+            }
         }
     },
     menuIcon: {
