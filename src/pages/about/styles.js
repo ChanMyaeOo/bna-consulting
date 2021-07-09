@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-
+import BusinessImg from '../../images/business.jpg'
 const useStyles = makeStyles((theme) => ({
     aboutContentWrap: {
         margin: '70px 0'
@@ -20,11 +20,39 @@ const useStyles = makeStyles((theme) => ({
         width: '95%',
         margin: '0 auto',
     },
-    imgWrap: {
-        // width: '60%'
-    },
     contentWrap: {
         paddingLeft: '40px'
+    },
+
+
+    // about item section
+    itemWrapper: {
+        width: '100%',
+        height: '450px',
+        background: `linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7) 100%),url(${BusinessImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+        display: 'flex',
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    aboutItemWrap: {
+        padding: '20px',
+        textAlign: "center",
+    },
+    itemLogo: {
+        width: '60px'
+    },
+    itemTitle: {
+        fontSize: '28px',
+        color: '#fff',
+        margin: '30px 0',
+    },
+    itemContent: {
+        color: '#fff',
+        lineHeight: '1.5rem',
+        fontSize: '90%'
     },
     [theme.breakpoints.down('md')]: {
         aboutHeader: {
@@ -47,6 +75,15 @@ const useStyles = makeStyles((theme) => ({
         },
         aboutImg: {
             width: '320px'
+        },
+
+        itemWrapper: {
+            height: 'auto',
+            flexDirection: 'column',
+            padding: '30px 0'
+        },
+        aboutItemWrap: {
+            width: '80%'
         }
     }
 }));
