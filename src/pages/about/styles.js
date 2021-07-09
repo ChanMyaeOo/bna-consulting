@@ -54,6 +54,58 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: '1.5rem',
         fontSize: '90%'
     },
+
+    // choose section
+    chooseSection: {
+        marginTop: '60px'
+    },
+    chooseTextWrap: {
+        display: 'flex',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        margin: '40px 0'
+    },  
+    chooseHeader: {
+        // width: '50%',
+        // flex: '1',
+        padding: '0 60px',
+        "& > p": {
+            textTransform: 'uppercase',
+            fontSize: '80%'
+        },
+        "& > h3": {
+            fontSize: '28px',
+            margin: '15px 0'
+        }
+    },  
+    chooseContent: {
+        // width: '50%'
+        flex: '1',
+        lineHeight: '1.6rem',
+        margin: '0 60px',
+        color: '#1a1e66'
+    },
+
+    // unique section
+    uniqueSection: {
+        width: '100%',
+        display: 'flex',
+    },
+    uniqueItem: {
+        background: '#7e6a46',
+        margin: '25px',
+        padding: '40px 30px',
+        "& > h3": {
+            color: '#fff',
+            fontSize: '23px',
+            marginBottom: '20px',
+            textDecoration: 'underline'
+        },
+        "& > p": {
+            color: '#fff'
+        }
+    },
     [theme.breakpoints.down('md')]: {
         aboutHeader: {
             width: '50%'
@@ -84,6 +136,26 @@ const useStyles = makeStyles((theme) => ({
         },
         aboutItemWrap: {
             width: '80%'
+        },
+        chooseTextWrap: {
+            flexDirection: 'column'
+        },
+        chooseHeader: {
+            textAlign: 'center',
+            "& > h3": {
+                fontSize: '24px'
+            }
+        },
+        chooseContent: {
+            margin: '0 15px'
+        },
+        uniqueSection: {
+            flexDirection: 'column',
+            marginBottom: '30px'
+        },
+        uniqueItem: {
+            padding: '25px',
+            margin: '15px'
         }
     }
 }));

@@ -68,6 +68,37 @@ const About = () => {
                     <p className={classes.itemContent}>Our team will work around your availability to make sure your accounts are taken care of without any hassle, so you can focus on your business.</p>
                 </div>
             </div>
+
+            <div className={classes.chooseSection}>
+                <div className={classes.chooseTextWrap}>
+                    <div className={classes.chooseHeader}>
+                        <p>why choose us</p>
+                        <h3>Because at BNA CONSULTING</h3>
+                    </div>
+                    <p className={classes.chooseContent}>
+                        We make BNA Consulting different, Our dedicated and experienced team of English and Russian speaking accountants in London have the skills to manage every area of your accounting needs, from setting up a limited company to managing annual returns, your self-assessment and even payroll for your staff.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div className={classes.uniqueSection}>
+                <div className={classes.uniqueItem}>
+                    <h3>Expert team</h3>
+                    <p>We are an experienced and qualified English and Russian speaking executive Accounting &amp; Consulting firm based in London.</p>
+                </div>
+
+                <div className={classes.uniqueItem}>
+                    <h3>Consultations</h3>
+                    <p>Whether you’re just looking for some advice or would like the team to take care of your accounts, best service assured.</p>
+                </div>
+
+                <div className={classes.uniqueItem}>
+                    <h3>Fair pricing</h3>
+                    <p>BNA Consulting offers competitive and affordable pricing based on your needs, So now you can get the best possible service at the best price.</p>
+                </div>
+            </div>
         </div>
     );
 };
