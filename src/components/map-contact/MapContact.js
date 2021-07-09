@@ -36,7 +36,7 @@ const MapContact = () => {
                     will get back to you shortly.
                 </p>
                 <p className={classes.contactFormText}>
-                    I would like to consult
+                    I would like to consult:
                 </p>
                 <form className={classes.contactForm}>
                     <div className={classes.inputWrap}>
