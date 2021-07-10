@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import Layout from "./components/layout/Layout";
 import About from './pages/about/About'
 import Services from './pages/services/Services'
+import Bookkeeping from './pages/service-detail/bookkeeping/Bookkeeping'
 import "./style.css";
 
 
@@ -15,7 +16,12 @@ const App = () => {
     return (
             <Router>     
                  <Switch>
-                     <Route path="/services">
+                    <Route path="/services/bookkeeping">
+                        <Layout>
+                            <Bookkeeping />
+                        </Layout>
+                    </Route>
+                     <Route exact path="/services">
                         <Layout>
                             <Services />
                         </Layout>
