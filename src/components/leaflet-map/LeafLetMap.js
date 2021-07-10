@@ -3,8 +3,8 @@ import { Map, TileLayer, Marker, Popup} from "react-leaflet";
 import 'leaflet-fullscreen/dist/Leaflet.fullscreen.js'
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css'
 import './override.css'
-const DEFAULT_LONGITUDE = 96.1735;
-const DEFAULT_LATTITUDE = 16.8409;
+const DEFAULT_LONGITUDE = -1.080278;
+const DEFAULT_LATTITUDE = 53.958332;
 
 const LeafLetMap = () => {
     return (

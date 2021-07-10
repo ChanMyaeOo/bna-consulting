@@ -2,7 +2,9 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Grid } from "@material-ui/core";
+import { Link } from 'react-router-dom'
 import HeroSection from "../../components/hero-section/HeroSection";
+import MapContact from '../../components/map-contact/MapContact'
 import useStyles from "./styles";
 
 const Services = () => {
@@ -308,6 +310,13 @@ const Services = () => {
                     </div>
 
                 </div>
+            </div>
+
+            <MapContact />
+
+            <div className={classes.serviceContact}>
+                <h3 className={classes.requestHeader}>Contact Us Now for Quick Advice</h3>
+                <Link to="/" className={classes.requestBtn}>Request now &gt;</Link>
             </div>
         </div>
     );
