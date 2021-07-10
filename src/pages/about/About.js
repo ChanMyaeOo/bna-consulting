@@ -10,7 +10,7 @@ const About = () => {
     const classes = useStyles();
     return (
         <div>
-            <HeroSection />
+            <HeroSection title="About us" />
             <div className={classes.aboutContentWrap}>
                 <p className={classes.aboutTitle}>LONDON BASED</p>
                 <h3 className={classes.aboutHeader}>
