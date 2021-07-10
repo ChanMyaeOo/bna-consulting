@@ -61,10 +61,114 @@ const useStyles = makeStyles((theme) => ({
             fontSize: '20px'
         }
     },
+
+    // service carousel
+    serviceCarouselWrap: {
+        background: '#f2f2f2',
+        marginTop: '60px',
+        paddingBottom: '60px'
+    },
+    carouselContentWrap: {
+        padding: '70px 0',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '95%',
+        margin: '0 auto'
+    },
+    corouselTitle: {
+        fontSize: '28px',
+        minWidth: '450px',
+        margin: '0 70px 0px 30px'
+    },
+    carouselContent: {
+        lineHeight: '1.6rem',
+        fontSize: '95%',
+        padding: '0 40px'
+    },
+
+    carouselItem: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${ServiceItem1})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+        padding: '40px',
+        minWidth: '350px',
+        maxWidth: '350px',
+        margin: '20px',
+        position: 'relative',
+        minHeight: '230px',
+        "&:hover": {
+            "& $carTextWrap": {
+                opacity: '1'
+            }
+        }
+    },
+    carouselItemWrap: {
+        width: '95%',
+        margin: '0 auto',
+        display: 'flex',
+        justifyContent: 'center'
+    },
+    carTextWrap: {
+        background: '#ad8e63',
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        padding: '10px',
+        opacity: 0
+    },
+    carItemTitle: {
+        color: '#fff',
+        fontSize: '20px'
+    },
+    carItemText: {
+        color: '#fff',
+        lineHeight: '1.5rem',
+        padding: '25px 0'
+    },
+    carItemStart: {
+        color: '#fff',
+        fontSize: '90%'
+    },
+    itemReviewTitle: {
+        color: '#fff',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '60px',
+        background: '#ad8e63'
+    },
+    [theme.breakpoints.down('md')]: {
+        carouselItem: {
+            minWidth: '270px',
+            maxWidth: '270px'
+        },
+        corouselTitle: {
+            marginRight: 0
+        }
+    },
     [theme.breakpoints.down('sm')]: {
         serviceItem: {
             maxWidth: '250px',
             minWidth: '250px',
+        },
+        carouselContentWrap: {
+            flexDirection: 'column',
+            padding: '40px 0'
+        },
+        corouselTitle: {
+            marginLeft: 0,
+        },
+        carouselContent: {
+            padding: 0,
+            marginTop: '25px'
         }
     },
     [theme.breakpoints.down('xs')]: {
@@ -77,6 +181,14 @@ const useStyles = makeStyles((theme) => ({
         },
         serviceTextWrap: {
             margin: '40px 0'
+        },
+        corouselTitle: {
+            minWidth: '100%',
+            textAlign: 'center',
+            fontSize: '24px'
+        },
+        carouselContent: {
+            width: '95%'
         }
     }
 }));
