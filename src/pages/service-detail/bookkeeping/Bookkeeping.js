@@ -1,10 +1,17 @@
 import React from 'react'
 import HeroSection from '../../../components/hero-section/HeroSection'
 import ServiceNav from '../service-nav/ServiceNav'
+import Accordion from '../../../components/accordion/Accordion'
 import useStyles from './styles'
 
 const Bookkeeping = () => {
     const classes = useStyles();
+    const title = 'Flexible and Reliable'
+    const content = 'London based BNA Consulting offers direct services for all your bookkeeping needs both in a full or part-time capacity which means that we at BNA can take care of all your bookkeeping needs, either for a day or a month to a long-term commitment, all depending on your needs. BNA consulting also offers bookkeeping service professional off-site bookkeeping services UK for business development and small business start-ups. We are also more than willing to aid companies which have limited office space or have outgrown their own by providing excellent, flexible and reliable bookkeeping and consulting services.'
+    const title1 = 'Scalable to Your Needs'
+    const content1 = 'Due to increasing hikes in London office-space prices, our services would be the perfect solution to help out your fledgeling business and to help you grow your business. With us taking care of your bookkeeping you have your hands free to do whatever you want with the additional office area. Be at ease as both English and Russian speaking experts at our office are doing their best to keep your bookkeeping in check and your business running smoothly.'
+    const title2 = 'Keeping your books in order'
+    const content2 = 'BNA Consulting is at the top of all accounting needs for their clients, especially because we believe in versatility. By employing English and Russian speaking accountants in London we can assess your problem by understanding your needs and we make custom-tailored solutions for each of our clients. We invest time in our clients making sure that we understand what they require of our services and exactly how we can reach the goals are clients strive to achieve. We at BNA Consulting are building on our flexibility and practical skills by specialising in online accounting while also having experience with employing the latest bookkeeping trends.'
     return (
         <div>
         <HeroSection title="Bookkeeping"/>
@@ -32,6 +39,7 @@ const Bookkeeping = () => {
 
             </div>
         </div>
+        <Accordion num={3} title={title} content={content} title1={title1} content1={content1} title2={title2} content2={content2}/>
         </div>
     )
 }

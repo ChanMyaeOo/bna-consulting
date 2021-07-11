@@ -5,7 +5,8 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         width: '95%',
         margin: '0 auto',
-        paddingTop: '60px'
+        paddingTop: '60px',
+        marginBottom: '60px'
     },
 
     serviceNav: {

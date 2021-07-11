@@ -1,0 +1,13 @@
+.MuiAccordionSummary-content {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiSvgIcon-root {
+    color: #b78b4b;
+}
+
+.MuiTypography-body1 {
+    line-height: 1.6rem;
+    color: #1a1e66;
+}
