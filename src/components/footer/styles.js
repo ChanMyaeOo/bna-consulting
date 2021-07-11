@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
    },
    fSocial: {
        padding: '6px',
+       color: '#fff !important',
        "& > p": {
            fontSize: '14px'
        }

@@ -20,6 +20,21 @@ const useStyles = makeStyles((theme) => ({
                 justifyContent: 'space-between'
             }
         }
+    },
+    [theme.breakpoints.down('sm')]: {
+        serviceNav: {
+            minWidth: '100%',
+            "& > a": {
+                width: '95%'
+            }
+        }
+    },
+    [theme.breakpoints.down('xs')]: {
+        serviceNav: {
+            "& > a": {
+                width: '90%'
+            }
+        }
     }
 }));
 export default useStyles;

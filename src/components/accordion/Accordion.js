@@ -20,6 +20,12 @@ const useStyles = makeStyles((theme) => ({
     },
     accrContent: {
         color: '#00f !important'
+    },
+    accorBorder: {
+        border: '1px solid #ccc',
+        boxShadow: 'none',
+        margin: '15px 0',
+        borderRadius: '5px'
     }
 }));
 
@@ -86,7 +92,7 @@ export default function SimpleAccordion({ num, title, content, title1, content1,
         } else if (num === 3) {
             return (
                 <>
-                    <Accordion>
+                    <Accordion className={classes.accorBorder}>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel1a-content"
@@ -102,7 +108,7 @@ export default function SimpleAccordion({ num, title, content, title1, content1,
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion>
+                    <Accordion className={classes.accorBorder}>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel2a-content"
@@ -118,7 +124,7 @@ export default function SimpleAccordion({ num, title, content, title1, content1,
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion>
+                    <Accordion className={classes.accorBorder}>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel2a-content"

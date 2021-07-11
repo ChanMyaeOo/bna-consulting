@@ -8,12 +8,11 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: '60px',
         marginBottom: '60px'
     },
-
-    serviceNav: {
-        minWidth: '250px',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'flex-start',
+    [theme.breakpoints.down('sm')]: {
+        serviceContainer: {
+            flexDirection: 'column'
+        }
     }
+    
 }));
 export default useStyles;

@@ -11,3 +11,7 @@
     line-height: 1.6rem;
     color: #1a1e66;
 }
+
+.MuiAccordion-root:before {
+    height: 0 !important;
+}
