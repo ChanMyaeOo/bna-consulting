@@ -3,6 +3,9 @@ import ServiceItem1 from '../../images/service1.jpg'
 
 const useStyles = makeStyles((theme) => ({
 
+    carouselContainer: {
+        paddingBottom: '40px'
+    },
    carouselItemWrap: {
         width: '95%',
         margin: '0 auto',

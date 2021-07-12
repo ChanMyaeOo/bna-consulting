@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "../../components/hero-section/HeroSection";
+import ReviewContact from '../../components/review-contact/ReviewContact'
 import AboutImg from "../../images/home-about.jpg";
 import AboutItem1 from '../../images/about-item1.png'
 import AboutItem2 from '../../images/about-item2.png'
@@ -99,6 +100,8 @@ const About = () => {
                     <p>BNA Consulting offers competitive and affordable pricing based on your needs, So now you can get the best possible service at the best price.</p>
                 </div>
             </div>
+
+            <ReviewContact />
         </div>
     );
 };

@@ -2,6 +2,9 @@ import React from 'react'
 import HeroSection from '../../../components/hero-section/HeroSection'
 import ServiceNav from '../service-nav/ServiceNav'
 import Accordion from '../../../components/accordion/Accordion'
+import CarouselLarge from '../../../components/carousel-large/CarouselLarge'
+import CarouselSmall from '../../../components/carousel-small/CarouselSmall'
+import ReviewContact from '../../../components/review-contact/ReviewContact'
 import useStyles from './styles'
 
 const Bookkeeping = () => {
@@ -40,6 +43,9 @@ const Bookkeeping = () => {
             </div>
         </div>
         <Accordion num={3} title={title} content={content} title1={title1} content1={content1} title2={title2} content2={content2}/>
+        <CarouselLarge />
+        <CarouselSmall />
+        <ReviewContact />
         </div>
     )
 }

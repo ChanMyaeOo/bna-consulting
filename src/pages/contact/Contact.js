@@ -5,6 +5,8 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import HeroSection from '../../components/hero-section/HeroSection'
 import LeafLetMap from '../../components/leaflet-map/LeafLetMap'
+import CarouselLarge from '../../components/carousel-large/CarouselLarge'
+import CarouselSmall from '../../components/carousel-small/CarouselSmall'
 import useStyles from './styles'
 
 const Contact = () => {
@@ -42,7 +44,8 @@ const Contact = () => {
 
             <LeafLetMap className={classes.leafLetMap} />
             <div className={classes.contactCarousel}>
-                
+                <CarouselLarge />
+                <CarouselSmall />
             </div>
         </div>
     )

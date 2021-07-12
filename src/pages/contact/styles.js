@@ -73,11 +73,12 @@ const useStyles = makeStyles((theme) => ({
     },
     contactCarousel: {
         width: '100%',
-        height: '450px',
+        height: 'auto',
         background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${ContactImg})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
         backgroundSize: "cover",
+        padding: '120px 0 70px 0'
     },
     [theme.breakpoints.down('xs')]: {
         contactWrapper: {

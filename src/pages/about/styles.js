@@ -91,6 +91,7 @@ const useStyles = makeStyles((theme) => ({
     uniqueSection: {
         width: '100%',
         display: 'flex',
+        paddingBottom: '40px'
     },
     uniqueItem: {
         background: '#7e6a46',

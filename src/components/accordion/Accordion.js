@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: "95%",
         margin: "0 auto",
-        paddingBottom: '80px'
+        paddingBottom: '50px'
     },
     heading: {
         fontSize: theme.typography.pxToRem(20),
         fontWeight: theme.typography.fontWeightRegular,
-        color: "#b78b4b",
+        color: '#1a1e66'
     },
     accrContent: {
         color: '#00f !important'

@@ -3,7 +3,8 @@ import ServiceItem1 from '../../images/service1.jpg'
 
 const useStyles = makeStyles((theme) => ({
     carouselWrapper: {
-        display: 'none'
+        display: 'none',
+        paddingBottom: '60px'
     },
    item: {
        width: '90%',

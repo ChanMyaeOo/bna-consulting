@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 import HeroSection from '../../components/hero-section/HeroSection'
+import ReviewContact from '../../components/review-contact/ReviewContact'
 import FaqsAccordion from './faqs-accordion/FaqsAccordion'
 import useStyles from './styles'
 
@@ -36,6 +37,8 @@ const Faqs = () => {
                     </Grid>
                 </Grid>
             </div>
+
+            <ReviewContact />
         </div>
     )
 }
