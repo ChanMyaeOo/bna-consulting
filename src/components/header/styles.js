@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
         height: '100%',
         background: "rgba(0,0,0,0.7)",
         display: 'none',
-        zIndex: '1000',
+        zIndex: '1500',
     },
     resMenu: {
         background: '#000',

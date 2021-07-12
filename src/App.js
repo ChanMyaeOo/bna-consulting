@@ -10,6 +10,7 @@ import About from './pages/about/About'
 import Services from './pages/services/Services'
 import Bookkeeping from './pages/service-detail/bookkeeping/Bookkeeping'
 import Faqs from './pages/faqs/Faqs'
+import Contact from './pages/contact/Contact'
 import "./style.css";
 
 
@@ -17,6 +18,11 @@ const App = () => {
     return (
             <Router>     
                  <Switch>
+                      <Route path="/contact">
+                        <Layout>
+                            <Contact />
+                        </Layout>
+                    </Route>
                      <Route path="/faqs">
                         <Layout>
                             <Faqs />
