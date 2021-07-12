@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import HeroSection from "../../components/hero-section/HeroSection";
 import MapContact from '../../components/map-contact/MapContact'
 import CarouselLarge from '../../components/carousel-large/CarouselLarge'
+import CarouselSmall from '../../components/carousel-small/CarouselSmall'
 import useStyles from "./styles";
 
 const Services = () => {
@@ -136,8 +137,11 @@ const Services = () => {
                     </div>
 
 
-                    {/* Carousel Slide Section For Laptop View */}
-                    <CarouselLarge />
+                    {/* Carousel for large device */}
+                    <CarouselLarge className={classes.carouselForLarge}/>
+
+                    {/* Carousel for small device */}
+                    <CarouselSmall className={classes.carouselForSmall}/>
 
                 </div>
             </div>

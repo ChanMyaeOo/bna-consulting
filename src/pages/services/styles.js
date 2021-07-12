@@ -87,6 +87,8 @@ const useStyles = makeStyles((theme) => ({
         padding: '0 40px'
     },
 
+    
+
     // contact
     serviceContact: {
         width: '100%',
@@ -120,7 +122,11 @@ const useStyles = makeStyles((theme) => ({
         },
         corouselTitle: {
             marginRight: 0
-        }
+        },
+        serviceItemWrap: {
+            justifyContent: 'flex-start',
+            paddingLeft: '120px'
+        },
     },
     [theme.breakpoints.down('sm')]: {
         serviceItem: {
@@ -137,7 +143,11 @@ const useStyles = makeStyles((theme) => ({
         carouselContent: {
             padding: 0,
             marginTop: '25px'
-        }
+        },
+        serviceItemWrap: {
+            justifyContent: 'flex-start',
+            paddingLeft: '25px'
+        },
     },
     [theme.breakpoints.down('xs')]: {
         serviceTitle: {
@@ -149,6 +159,9 @@ const useStyles = makeStyles((theme) => ({
         },
         serviceTextWrap: {
             margin: '40px 0'
+        },
+        serviceItemWrap: {
+            paddingLeft: 0
         },
         corouselTitle: {
             minWidth: '100%',

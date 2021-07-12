@@ -14,6 +14,7 @@ const CarouselLarge = () => {
             showIndicators={false}
             showThumbs={false}
             swipeable={true}
+            className={classes.carouselContainer}
         >
             <Grid container className={classes.carouselItemWrap}>
                 <Grid

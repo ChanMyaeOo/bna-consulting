@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
             maxWidth: '100%'
         },
         homeContact: {
-            padding: '20px'
+            padding: '40px 20px',
         },
         contactTitle: {
             marginBottom: '20px',

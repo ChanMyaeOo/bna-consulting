@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ServiceItem1 from '../../images/service1.jpg'
 
 const useStyles = makeStyles((theme) => ({
+
    carouselItemWrap: {
         width: '95%',
         margin: '0 auto',
@@ -60,6 +61,11 @@ const useStyles = makeStyles((theme) => ({
         height: '60px',
         background: '#ad8e63'
     },
+    [theme.breakpoints.down('sm')]: {
+        carouselContainer: {
+            display: 'none'
+        }
+    }
 }));
 
 export default useStyles;
