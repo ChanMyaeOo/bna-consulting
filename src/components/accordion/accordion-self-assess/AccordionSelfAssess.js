@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold',
         color: "#1a1e66",
     },
-    accrContent: {
-        color: "#00f !important",
+    selfAssessList: {
+        paddingLeft: '25px'
     },
     accorBorder: {
         border: "1px solid #ccc",
@@ -44,10 +44,10 @@ export default function SimpleAccordion() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography clasName={classes.accrContent}>
+                    <Typography >
                         <p>Our expert accountant at BNA Consulting have often been asked what self assessment is, and the simplest way to put it is that it is a tax return is a form on which you must give details of your income and expenses, if asked to do so by HM Revenue and Customs (HMRC). The tax return is then used to calculate the amount of tax that you are due to pay. We must also mention that if you fall into any of these categories, you may need to submit a Self Assessment Tax Return form:</p>
                         <br/>
-                        <ul>
+                        <ul className={classes.selfAssessList}>
                             <li>Are Self Employed (including CIS card holders)</li>
                             <li>Receive offshore / foreign income</li>
                             <li>Own UK rental property</li>
@@ -70,11 +70,11 @@ export default function SimpleAccordion() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography clasName={classes.accrContent}>
+                    <Typography>
                         <h4>Have you ever thought that you might be paying too much tax?</h4>
                         <p>BNA Consulting is there to allay your worries. We ensure that that you are almost guaranteed tax refund if you satisfy one of the following criteria:</p>
                         <br/>
-                        <ul>
+                        <ul className={classes.selfAssessList}>
                             <li>You have not worked full tax year</li>
                             <li>You have been taxed on the wrong tax code</li>
                             <li>You work in the construction industry on the CIS scheme</li>

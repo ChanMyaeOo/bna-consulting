@@ -14,6 +14,9 @@ import SelfAssessment from './pages/service-detail/self-assessment/SelfAssessmen
 import AnnualReturns from './pages/service-detail/annual-returns/AnnualReturns'
 import AnnualAccounts from './pages/service-detail/annual-accounts/AnnualAccounts'
 import LimitedCompany from './pages/service-detail/limited-company/LimitedCompany'
+import Cis from './pages/service-detail/cis/Cis'
+import Vat from './pages/service-detail/vat/Vat'
+import Payroll from './pages/service-detail/payroll/Payroll'
 import Faqs from './pages/faqs/Faqs'
 import Contact from './pages/contact/Contact'
 import "./style.css";
@@ -36,6 +39,21 @@ const App = () => {
 
 
 
+                    <Route path="/services/payroll">
+                        <Layout>
+                            <Payroll />
+                        </Layout>
+                    </Route>
+                    <Route path="/services/vat">
+                        <Layout>
+                            <Vat />
+                        </Layout>
+                    </Route>
+                    <Route path="/services/cis">
+                        <Layout>
+                            <Cis />
+                        </Layout>
+                    </Route>
                     <Route path="/services/limited-company">
                         <Layout>
                             <LimitedCompany />

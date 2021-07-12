@@ -74,43 +74,35 @@ const Services = () => {
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>CIS</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/cis">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>VAT</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/vat">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>Payroll</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            We at BNA aim to be the most affordable and reliable choice when choosing a company to process your payroll.
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/payroll">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>Bookkeeping</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/bookkeeping">&gt;</Link>
                     </div>
                 </div>
 
