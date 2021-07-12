@@ -38,7 +38,15 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/services/utr-number">&gt;</Link>
+                    </div>
+
+                    <div className={classes.serviceItem}>
+                        <h3>Self Assessment</h3>
+                        <p>
+                            Our goal is to help build your business and watch it grow by giving our best to keep track of...
+                        </p>
+                        <Link to="/services/self-assessment">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -48,7 +56,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -58,7 +66,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -68,7 +76,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -78,7 +86,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -88,7 +96,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -98,7 +106,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
@@ -108,17 +116,7 @@ const Services = () => {
                             have been issued by HMRC when the company was set up
                             and registered.
                         </p>
-                        <div>&gt;</div>
-                    </div>
-
-                    <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
-                        <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
-                        </p>
-                        <div>&gt;</div>
+                        <Link to="/">&gt;</Link>
                     </div>
                 </div>
 

@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
     heading: {
         fontSize: theme.typography.pxToRem(20),
-        fontWeight: theme.typography.fontWeightRegular,
+        fontWeight: "bold",
         color: '#1a1e66'
     },
     accrContent: {

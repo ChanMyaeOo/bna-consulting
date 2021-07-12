@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: '60px',
         marginBottom: '60px'
     },
-    serviceContent: {
+     serviceContent: {
         "& > h3": {
             fontSize: '30px',
             color: '#1a1e66',

@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
             color: '#fff',
             margin: '25px 0'
         },
-        "& > div": {
+        "& > a": {
             width: '40px',
             height: '40px',
             background: '#7e6a46',
@@ -58,7 +58,8 @@ const useStyles = makeStyles((theme) => ({
             justifyContent: 'center',
             alignItems: 'center',
             color: '#fff',
-            fontSize: '20px'
+            fontSize: '20px',
+            textDecoration: 'none',
         }
     },
 
