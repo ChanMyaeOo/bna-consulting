@@ -11,6 +11,9 @@ import Services from './pages/services/Services'
 import Bookkeeping from './pages/service-detail/bookkeeping/Bookkeeping'
 import UtrNumber from './pages/service-detail/utr-number/UtrNumber'
 import SelfAssessment from './pages/service-detail/self-assessment/SelfAssessment'
+import AnnualReturns from './pages/service-detail/annual-returns/AnnualReturns'
+import AnnualAccounts from './pages/service-detail/annual-accounts/AnnualAccounts'
+import LimitedCompany from './pages/service-detail/limited-company/LimitedCompany'
 import Faqs from './pages/faqs/Faqs'
 import Contact from './pages/contact/Contact'
 import "./style.css";
@@ -31,6 +34,23 @@ const App = () => {
                         </Layout>
                     </Route>
 
+
+
+                    <Route path="/services/limited-company">
+                        <Layout>
+                            <LimitedCompany />
+                        </Layout>
+                    </Route>
+                    <Route path="/services/annual-accounts">
+                        <Layout>
+                            <AnnualAccounts />
+                        </Layout>
+                    </Route>
+                    <Route path="/services/annual-returns">
+                        <Layout>
+                            <AnnualReturns />
+                        </Layout>
+                    </Route>
                     <Route path="/services/self-assessment">
                         <Layout>
                             <SelfAssessment />

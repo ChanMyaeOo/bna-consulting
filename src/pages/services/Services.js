@@ -50,33 +50,27 @@ const Services = () => {
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>Annual Returns</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/annual-returns">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>Annual Accounts</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            You can trust BNA Consulting to handle your accounts and having them ready to hand in for signing and filing...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/annual-accounts">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                        <h3>Limited Company</h3>
                         <p>
-                            The company Unique Taxpayer Reference (UTR) will
-                            have been issued by HMRC when the company was set up
-                            and registered.
+                            BNA Consulting is providing guidance on Limited Company accounting services for contractors and professional Services for Business Development and small...
                         </p>
-                        <Link to="/">&gt;</Link>
+                        <Link to="/services/limited-company">&gt;</Link>
                     </div>
 
                     <div className={classes.serviceItem}>
