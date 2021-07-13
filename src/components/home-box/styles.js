@@ -74,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down('xs')]: {
         homeBoxWrap: {
-            marginTop: 0
+            marginTop: '10px'
         }
     }
 }));

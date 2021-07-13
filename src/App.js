@@ -19,12 +19,14 @@ import Vat from './pages/service-detail/vat/Vat'
 import Payroll from './pages/service-detail/payroll/Payroll'
 import Faqs from './pages/faqs/Faqs'
 import Contact from './pages/contact/Contact'
+import ScrollToTop from './utils/ScrollToTop'
 import "./style.css";
 
 
 const App = () => {
     return (
-            <Router>     
+            <Router>
+                <ScrollToTop />     
                  <Switch>
                       <Route path="/contact">
                         <Layout>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import useStyles from "./styles";
@@ -29,7 +30,7 @@ const HomeCarousel = () => {
                             hassle free with perfection and delivered on time.
                         </p>
                         
-                        <button className={classes.headerBtn}>Let's start now </button>
+                        <Link className={classes.headerBtn} to="/contact">Let's start now </Link>
                     </div>
                 </div>
                 <div className={classes.carouselItem2}>
@@ -44,7 +45,7 @@ const HomeCarousel = () => {
                             We offer a vast range of services making sure it is
                             hassle free with perfection and delivered on time.
                         </p>
-                        <button className={classes.headerBtn}>Let's start now </button>
+                        <Link to="/contact" className={classes.headerBtn}>Let's start now </Link>
                     </div>
                 </div>
             </Carousel>

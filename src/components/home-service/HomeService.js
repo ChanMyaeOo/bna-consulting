@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import useStyles from "./styles";
 import BookkeepingImg from "../../images/accounting-2.png";
 import PayrollImg from "../../images/cheque.png";
@@ -29,8 +30,8 @@ const HomeService = () => {
                             <img src={BookkeepingImg} alt="logo" />
                         </div>
                         <div>
-                            <p className={classes.bookTitle}>Bookkeeping</p>
-                            <p className={classes.bookContent}>
+                            <p className={classes.serviceSubTitle}>Bookkeeping</p>
+                            <p className={classes.serviceSubContent}>
                                 BNA Consulting offers services for all
                                 Bookkeeping needs for our clients. We can help
                                 you hand in hand to make the most of your time.
@@ -43,8 +44,8 @@ const HomeService = () => {
                             <img src={AnnualAccountImg} alt="logo" />
                         </div>
                         <div>
-                            <p>Annual Accounts</p>
-                            <p>
+                            <p className={classes.serviceSubTitle}>Annual Accounts</p>
+                            <p className={classes.serviceSubContent}>
                                 Producing annual accounts can be a complex task, BNA Consulting professionals assure you the best advice regardless of the type of company you are and will prepare the set of annual accounts for you.
                             </p>
                         </div>
@@ -55,8 +56,8 @@ const HomeService = () => {
                             <img src={VatImg} alt="logo" />
                         </div>
                         <div>
-                            <p>VAT</p>
-                            <p>
+                            <p className={classes.serviceSubTitle2}>VAT</p>
+                            <p className={classes.serviceSubContent2}>
                                 When filling the VAT return, your business can’t afford to make mistakes. We offer the most tailored advice on your VAT and submitting it on time to avoid any extra penalties. We are tactical enough to deal with HMRC.
                             </p>
                         </div>
@@ -68,8 +69,8 @@ const HomeService = () => {
                             <img src={AnnualReturnImg} alt="logo" />
                         </div>
                         <div>
-                            <p>Annual Returns</p>
-                            <p>
+                            <p className={classes.serviceSubTitle}>Annual Returns</p>
+                            <p className={classes.serviceSubContent}>
                                 We can file the Annual Returns or Confirmation Statement and can keep track of it to avoid any penalties. Our Russian professionals handle your worries like a charm and works closely to understand you better.
                             </p>
                         </div>
@@ -83,8 +84,8 @@ const HomeService = () => {
                             <img src={PayrollImg} alt="logo" />
                         </div>
                         <div>
-                            <p className={classes.payrollTitle}>Payroll</p>
-                            <p className={classes.payrollContent}>
+                            <p className={classes.serviceSubTitle2}>Payroll</p>
+                            <p className={classes.serviceSubContent2}>
                                 We offer you the top-notch services of Payroll
                                 in London both in house and remotely. You can
                                 trust BNA Consulting professionals to manage,
@@ -99,8 +100,8 @@ const HomeService = () => {
                             <img src={AssesImg} alt="logo" />
                         </div>
                         <div>
-                            <p>Self Assessment</p>
-                            <p>
+                            <p className={classes.serviceSubTitle}>Self Assessment</p>
+                            <p className={classes.serviceSubContent}>
                                 We can handle your self-assessment to save you both time and money. We can also do all the necessary calculation and keep you updated on what and when to pay. We make sure to simplify the entire process for you.
                             </p>
                         </div>
@@ -111,15 +112,15 @@ const HomeService = () => {
                             <img src={CisImg} alt="logo" />
                         </div>
                         <div>
-                            <p>CIS</p>
-                            <p>
+                            <p className={classes.serviceSubTitle2}>CIS</p>
+                            <p className={classes.serviceSubContent2}>
                                 Our CIS expert executives are always up to date and can provide you complete service whether it is electronic filing or online verification or to prepare and file your CIS Returns effectively and promptly.
                             </p>
                         </div>
                     </div>
 
                     <div className={classes.serviceBtnWrap}>
-                        <button className={classes.serviceBtn}>See All Services</button>
+                        <Link to="/services"  className={classes.serviceBtn}>See All Services</Link>
                     </div>
 
                 </div>
@@ -134,8 +135,8 @@ const HomeService = () => {
                             <img src={LimitedImg} alt="logo" />
                         </div>
                         <div>
-                            <p>Limited Company</p>
-                            <p>
+                            <p className={classes.serviceSubTitle2}>Limited Company</p>
+                            <p className={classes.serviceSubContent2}>
                                 At BNA Consulting our multilingual executives can understand your needs and goals more precisely, providing services such as opening the company and dealing with all the legal documents to keep things right from the start.
                             </p>
                         </div>
@@ -146,8 +147,8 @@ const HomeService = () => {
                             <img src={DocumentImg} alt="logo" />
                         </div>
                         <div>
-                            <p>Documents for Home Office</p>
-                            <p>
+                            <p className={classes.serviceSubTitle}>Documents for Home Office</p>
+                            <p className={classes.serviceSubContent}>
                                 BNA Consulting can help you with all the documents requested by the Home office in required format and scenarios.
                             </p>
                         </div>

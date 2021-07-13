@@ -41,20 +41,21 @@ const useStyles = makeStyles((theme) => ({
 
     headerContent: {
         color: '#fff',
-        padding: '20px',
+        padding: '20px 0 30px 0',
         lineHeight: '1.5rem',
         width: '50%',
         margin: '0 auto'
     },
     headerBtn: {
-        padding: '15px 35px',
-        borderRadius: '30px',
+        padding: '12px 25px',
+        borderRadius: '10px',
         outline: 'none',
         border: 'none',
         background: '#7e6a46',
         color: '#fff',
         opacity: '0.9',
         marginBottom: "30px",
+        textDecoration: 'none',
         "&:hover": {
             opacity: '1'
         }
@@ -88,10 +89,12 @@ const useStyles = makeStyles((theme) => ({
             width: '100%'
         },
         carouselItem1: {
-            height: 'auto'
+            height: 'auto',
+            paddingBottom: '45px'
         },
         carouselItem2: {
-            height: 'auto'
+            height: 'auto',
+            paddingBottom: '45px'
         }
     }
 }));

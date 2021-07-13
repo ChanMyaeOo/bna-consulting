@@ -29,6 +29,29 @@ const useStyles = makeStyles((theme) => ({
         margin: '10px 0 30px 0'
     },
 
+    // Servie Section
+    serviceSubTitle: {
+        fontSize: '18px',
+        fontWeight: 'bold',
+        marginBottom: '5px',
+        fontFamily: 'Playfair Display, serif',
+    },
+
+    serviceSubContent: {
+        lineHeight: '1.5rem'
+    },
+
+    serviceSubTitle2: {
+        textAlign: 'center',
+        margin: '20px 0',
+        fontSize: '18px',
+        fontWeight: 'bold'
+    },
+
+    serviceSubContent2: {
+        textAlign: 'center'
+    },
+
     // left service 
     leftServiceWrap: {
         maxWidth: '350px'
@@ -50,43 +73,53 @@ const useStyles = makeStyles((theme) => ({
         }
     },
 
-    bookTitle: {
-        fontSize: '18px',
-        fontWeight: 'bold',
-        marginBottom: '5px'
-    },
-
-    bookContent: {
-        lineHeight: '1.5rem'
-    },
-
     // Annual Account
     annualAccountSection: {
         background: '#fff',
         padding: '30px',
+        display: 'flex',
         margin: '30px 0'
     },
     annualLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+         height: 'fit-content',
+        marginRight: '20px',
+        "& > img": {
+            padding: '5px 5px 0 5px'
+        }
     },
 
     // VAT
     vatSection: {
         background: '#fff',
-        padding: '30px'
+        padding: '30px',
+        marginTop: '50px'
     },
     vatLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+        width: 'fit-content',
+        borderRadius: '50%',
+        margin: '0 auto',
+        marginTop: '-60px',
+        "& > img": {
+            padding: '10px 10px 0 10px',
+        }
     },
 
     // Annual Returns
     annualReturnSection: {
         background: '#fff',
         padding: '30px',
-        margin: '30px 0'
+        margin: '30px 0',
+        display: 'flex'
     },
     annualReturnLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63', height: 'fit-content',
+        marginRight: '20px',
+        "& > img": {
+            padding: '5px 5px 0 5px'
+        }
+
     },
 
     // middle service
@@ -110,35 +143,38 @@ const useStyles = makeStyles((theme) => ({
         }
     },
 
-    payrollTitle: {
-        textAlign: 'center',
-        margin: '20px 0',
-        fontSize: '18px',
-        fontWeight: 'bold'
-    },
-
-    payrollContent: {
-        textAlign: 'center'
-    },
-
     // sefl assessment
     assessmentSection: {
         background: '#fff',
         padding: '30px',
-        margin: '30px 0'
+        margin: '30px 0',
+        display: 'flex'
     },
     assesLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+         height: 'fit-content',
+        marginRight: '20px',
+        "& > img": {
+            padding: '5px 5px 0 5px'
+        }
     },
 
 
     // CIS
     cisSection: {
         background: '#fff',
-        padding: '30px'
+        padding: '30px',
+        marginTop: '50px'
     },
     cisLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+        width: 'fit-content',
+        borderRadius: '50%',
+        margin: '0 auto',
+        marginTop: '-60px',
+        "& > img": {
+            padding: '10px 10px 0 10px',
+        }
     },
 
 
@@ -159,19 +195,33 @@ const useStyles = makeStyles((theme) => ({
     limitedSection: {
         background: '#fff',
         padding: '30px',
-        margin: '30px 0'
+        margin: '30px 0',
+        marginTop: '50px'
     },
     limitedLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+        width: 'fit-content',
+        borderRadius: '50%',
+        margin: '0 auto',
+        marginTop: '-60px',
+        "& > img": {
+            padding: '10px 10px 0 10px',
+        }
     },
 
      // documents
     documentSection: {
         background: '#fff',
         padding: '30px',
+        display: 'flex'
     },
     documentLogoWrap: {
-        background: '#ad8e63'
+        background: '#ad8e63',
+        height: 'fit-content',
+        marginRight: '20px',
+        "& > img": {
+            padding: '5px 5px 0 5px'
+        }
     },
 
     serviceBtnWrap: {
@@ -184,13 +234,18 @@ const useStyles = makeStyles((theme) => ({
     },
 
     serviceBtn: {
-        padding: '20px',
+        padding: '17px',
         background: '#ad8e63',
         borderRadius: '30px',
         border: 'none',
         color: '#fff',
         height: 'fit-content',
+        textDecoration: 'none',
+        "&:hover": {
+            opacity: '0.9'
+        }
     },
+
 
     [theme.breakpoints.down('md')]: {
         leftServiceWrap: {

@@ -14,7 +14,7 @@ const Services = () => {
     const classes = useStyles();
     return (
         <div>
-            <HeroSection title="Services" />
+            <HeroSection title="Services" id="services"/>
 
             <div className={classes.servicesSection}>
                 <div className={classes.serviceTextWrap}>
