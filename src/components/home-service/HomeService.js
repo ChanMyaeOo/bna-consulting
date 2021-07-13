@@ -19,7 +19,7 @@ const HomeService = () => {
             <div className={classes.headerWrap}>
                 <p className={classes.serviceSecton}>Services</p>
                 <h3 className={classes.serviceTitle}>
-                    Make all the right money moves by our services
+                    Make all the right money moves by our <em>services</em>
                 </h3>
             </div>
 

@@ -26,7 +26,11 @@ const useStyles = makeStyles((theme) => ({
     },
     serviceTitle: {
         fontSize: '30px',
-        margin: '10px 0 30px 0'
+        margin: '10px 0 30px 0',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
 
     // Servie Section

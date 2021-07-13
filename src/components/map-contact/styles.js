@@ -12,7 +12,11 @@ const useStyles = makeStyles((theme) => ({
     contactTitle: {
         fontSize: '38px',
         color: '#fff',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     contactText: {
         lineHeight: '1.5rem',

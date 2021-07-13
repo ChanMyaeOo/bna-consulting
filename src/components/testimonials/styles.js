@@ -15,7 +15,11 @@ const useStyles = makeStyles((theme) => ({
     },
     consultTitle: {
         fontSize: '30px',
-        color: '#fff'
+        color: '#fff',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     consultBtn: {
         textDecoration: 'none',
@@ -33,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
         background: '#f2f2f2'
     },
     testimonialHeaderWrap: {
-        width: '35%',
+        width: '30%',
         textAlign: 'center',
         margin: '0 auto',
         padding: '60px 0'
@@ -43,7 +47,12 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '80%'
     },
     testimonialTitle: {
-        fontSize: '30px'
+        fontSize: '30px',
+        marginTop: '15px',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
 
     leftTestimonial: {

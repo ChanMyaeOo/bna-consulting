@@ -14,7 +14,21 @@ const useStyles = makeStyles((theme) => ({
     title: {
         fontSize: '32px',
         margin: '15px 0',
-        width: '70%'
+        width: '70%',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
+    },
+    askQus: {
+        color: '#000',
+        "&:hover": {
+            color: '#ad8e63'
+        }
+    },
+    phTxt: {
+        fontSize: '18px',
+        textDecoration: 'underline'
     },
     contentWrap: {
         display: 'flex',

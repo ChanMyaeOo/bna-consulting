@@ -29,7 +29,7 @@ const MapContact = () => {
                 xs={12}
                 className={classes.homeContact}
             >
-                <h3 className={classes.contactTitle}>Looking for advice?</h3>
+                <h3 className={classes.contactTitle}>Looking for <em>advice?</em></h3>
                 <p className={classes.contactText}>
                     Want to learn more about what BNA Consulting can do for you?
                     Get in touch today by filling in the form below and the team
@@ -40,12 +40,12 @@ const MapContact = () => {
                 </p>
                 <form className={classes.contactForm}>
                     <div className={classes.inputWrap}>
-                        <input type="text" placeholder="How to assist you:*" className={classes.formInput} />
-                        <input type="text" placeholder="Phone number:*" className={classes.formInput}/>
+                        <input type="text" placeholder="How to assist you:*" className={classes.formInput} required/>
+                        <input type="text" placeholder="Phone number:*" className={classes.formInput} required/>
                     </div>
 
                     <div className={classes.inputWrap}>
-                        <input type="text" placeholder="Your name:*" className={classes.formInput}/>
+                        <input type="text" placeholder="Your name:*" className={classes.formInput} required/>
                         <button className={classes.submitBtn}>Submit request</button>
                     </div>
                 </form>

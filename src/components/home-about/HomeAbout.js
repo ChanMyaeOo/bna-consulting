@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+import CountUp from 'react-countup';
 import useStyles from "./styles";
 import AboutImg from "../../images/home-about.jpg";
 
@@ -8,7 +10,7 @@ const HomeAbout = () => {
         <div className={classes.about}>
             <div className={classes.aboutLeft}>
                 <p className={classes.page}>About Us</p>
-                <h2 className={classes.title}>We are here to manage your finance with experience</h2>
+                <h2 className={classes.title}>We are here to manage your finance with <em>experience</em></h2>
                 <p className={classes.content}>
                     The perfection in work and the peace of mind we deliver are
                     another key point of BNA Consulting. We are English and
@@ -39,7 +41,7 @@ const HomeAbout = () => {
 
                 <div>
                     <p>
-                        Call to ask any question <strong>0208 991 991 0</strong> or <strong>07473 979 774</strong>
+                        Call to ask <Link to="/contact" className={classes.askQus}>any question&nbsp;</Link> <strong className={classes.phTxt}>0208 991 991 0</strong> or <strong className={classes.phTxt}>07473 979 774</strong>
                     </p>
                 </div>
             </div>
@@ -48,17 +50,17 @@ const HomeAbout = () => {
                 <img src={AboutImg} alt="image" className={classes.aboutImg} />
                 <div className={classes.status}>
                     <div>
-                        <div className={classes.statusNumber}>90+</div>
+                        <div className={classes.statusNumber}><CountUp end={90} /> +</div>
                         <div className={classes.statusName}>Trusted Clients</div>
                     </div>
 
                      <div>
-                        <div className={classes.statusNumber}>98%</div>
+                        <div className={classes.statusNumber}><CountUp end={98} /> %</div>
                         <div className={classes.statusName}>Happy Clients</div>
                     </div>
 
                      <div>
-                        <div className={classes.statusNumber}>100%</div>
+                        <div className={classes.statusNumber}><CountUp end={100} /> %</div>
                         <div className={classes.statusName}>Satisfaction</div>
                     </div>
                 </div>

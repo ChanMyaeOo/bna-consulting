@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     storyTitle: {
         color: "#fff",
         fontSize: "24px",
+        fontFamily: 'Playfair Display, serif'
     },
     storyContent: {
         lineHeight: "1.5rem",
@@ -48,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     approachTitle: {
         color: "#fff",
         fontSize: "24px",
+        fontFamily: 'Playfair Display, serif'
     },
     approachContent: {
         lineHeight: "1.5rem",
@@ -66,6 +68,7 @@ const useStyles = makeStyles((theme) => ({
     missionTitle: {
         color: "#fff",
         fontSize: "24px",
+        fontFamily: 'Playfair Display, serif'
     },
     missionContent: {
         lineHeight: "1.5rem",

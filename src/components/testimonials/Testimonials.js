@@ -11,14 +11,14 @@ const Testimonials = () => {
     return (
         <div className={classes.testiWrapper}>
             <div className={classes.consultWrap}>
-                <h3 className={classes.consultTitle}>Your finances are in safe hands</h3>
+                <h3 className={classes.consultTitle}>Your finances are in <em>safe hands</em></h3>
                 <Link to="/contact" className={classes.consultBtn}>Consult Us</Link>
             </div>
 
             <div className={classes.testimonialWrap}>
                 <div className={classes.testimonialHeaderWrap}>
                     <p className={classes.testimonialText}>Testimonial</p>
-                    <h3 className={classes.testimonialTitle}>We are very happy for our client’s review</h3>
+                    <h3 className={classes.testimonialTitle}>We are very happy for our client’s <em>review</em></h3>
                 </div>
 
                 <Carousel showArrows={false} showStatus={false} showThumbs={false} className={classes.carouselNormal}>
