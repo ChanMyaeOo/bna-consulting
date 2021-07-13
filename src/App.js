@@ -20,11 +20,13 @@ import Payroll from './pages/service-detail/payroll/Payroll'
 import Faqs from './pages/faqs/Faqs'
 import Contact from './pages/contact/Contact'
 import ScrollToTop from './utils/ScrollToTop'
+import ScrollButton from './components/scroll-button/ScrollButton'
 import "./style.css";
 
 
 const App = () => {
     return (
+            <>
             <Router>
                 <ScrollToTop />     
                  <Switch>
@@ -103,6 +105,9 @@ const App = () => {
                     </Route>
                 </Switch>
             </Router>
+            <ScrollButton />
+
+            </>
     );
 };
 
