@@ -31,12 +31,13 @@ const useStyles = makeStyles((theme) => ({
    footerSocialWrap: {
        width: '25%',
        "& > p": {
-           marginBottom: '10px'
+           marginBottom: '10px',
        }
    },
    contact: {
        display: 'flex',
        margin: '10px 0',
+       alignItems: 'center',
        "& > p": {
            marginLeft: '10px',
        }
@@ -44,9 +45,7 @@ const useStyles = makeStyles((theme) => ({
    fSocial: {
        padding: '6px',
        color: '#fff !important',
-       "& > p": {
-           fontSize: '14px'
-       }
+       cursor: 'pointer'
    },
    footerCopyright: {
        background: '#272727',

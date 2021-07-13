@@ -1,4 +1,6 @@
 import React from "react";
+import clsx from 'clsx'
+import { Link } from 'react-router-dom'
 import { Carousel } from "react-responsive-carousel";
 import { Grid } from "@material-ui/core";
 import useStyles from "./styles";
@@ -22,16 +24,15 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.utrNumber)}
                 >
                     <div className={classes.itemReviewTitle}>UTR Number</div>
                     <div className={classes.carTextWrap}>
                         <h3 className={classes.carItemTitle}>UTR Number</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            The company Unique Taxpayer Reference (UTR) will have been issued by...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/utr-number" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
 
@@ -40,16 +41,15 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.selfAssessment)}
                 >
-                    <div className={classes.itemReviewTitle}>UTR Number</div>
+                    <div className={classes.itemReviewTitle}>Self Assessment</div>
                     <div className={classes.carTextWrap}>
-                        <h3 className={classes.carItemTitle}>UTR Number</h3>
+                        <h3 className={classes.carItemTitle}>Self Assessment</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            Our goal is to help build your business and watch it...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/self-assessment" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
 
@@ -58,16 +58,15 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.annualReturns)}
                 >
-                    <div className={classes.itemReviewTitle}>UTR Number</div>
+                    <div className={classes.itemReviewTitle}>Annual Returns</div>
                     <div className={classes.carTextWrap}>
-                        <h3 className={classes.carItemTitle}>UTR Number</h3>
+                        <h3 className={classes.carItemTitle}>Annual Returns</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            Our goal is to help build your business and watch it...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/annual-returns" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
             </Grid>
@@ -78,18 +77,17 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.annualAccounts)}
                 >
                     <div className={classes.itemReviewTitle}>
-                        Annual Returns
+                        Annual Accounts
                     </div>
                     <div className={classes.carTextWrap}>
-                        <h3 className={classes.carItemTitle}>UTR Number</h3>
+                        <h3 className={classes.carItemTitle}>Annual Accounts</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            You can trust BNA Consulting to handle your accounts and having...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/annual-accounts" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
 
@@ -98,18 +96,17 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.limitedCompany)}
                 >
                     <div className={classes.itemReviewTitle}>
-                        Annual Returns
+                        Limited Company
                     </div>
                     <div className={classes.carTextWrap}>
-                        <h3 className={classes.carItemTitle}>UTR Number</h3>
+                        <h3 className={classes.carItemTitle}>Limited Company</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            BNA Consulting is providing guidance on Limited Company accounting services for...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/limited-company" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
 
@@ -118,18 +115,17 @@ const CarouselLarge = () => {
                     xl={4}
                     lg={4}
                     md={4}
-                    className={classes.carouselItem}
+                    className={clsx(classes.carouselItem, classes.cis)}
                 >
                     <div className={classes.itemReviewTitle}>
-                        Annual Returns
+                        CIS
                     </div>
                     <div className={classes.carTextWrap}>
-                        <h3 className={classes.carItemTitle}>UTR Number</h3>
+                        <h3 className={classes.carItemTitle}>CIS</h3>
                         <p className={classes.carItemText}>
-                            There are a number of circumstances when you might
-                            need your UTR number...
+                            Our goal is to help build your business and watch it...
                         </p>
-                        <p className={classes.carItemStart}>Let's start &gt;</p>
+                        <Link to="/services/cis" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
                 </Grid>
             </Grid>

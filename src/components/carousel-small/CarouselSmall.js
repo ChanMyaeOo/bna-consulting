@@ -1,6 +1,8 @@
 import React from 'react'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import clsx from 'clsx'
+import { Link } from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import useStyles from './styles'
 
 const CarouselSmall = () => {
@@ -16,16 +18,28 @@ const CarouselSmall = () => {
             swipeable={true}
             className={classes.carouselWrapper}
          >
-                <div className={classes.item}>
-                    <p className={classes.itemTitle}>UTR Number</p>
+                <div className={clsx(classes.item, classes.utrNumber)}>
+                    <Link to="/services/utr-number" className={classes.itemTitle}>UTR Number</Link>
                 </div>
 
-                 <div className={classes.item}>
-                    <p className={classes.itemTitle}>UTR Number2</p>
+                 <div className={clsx(classes.item, classes.selfAssessment)}>
+                    <Link to="/services/self-assessment" className={classes.itemTitle}>Self Assessment</Link>
                 </div>
 
-                 <div className={classes.item}>
-                    <p className={classes.itemTitle}>UTR Number3</p>
+                 <div className={clsx(classes.item, classes.annualReturns)}>
+                    <Link to="/services/annual-returns" className={classes.itemTitle}>Annual Returns</Link>
+                </div>
+
+                 <div className={clsx(classes.item, classes.annualAccounts)}>
+                    <Link to="/services/annual-accounts" className={classes.itemTitle}>Annual Accounts</Link>
+                </div>
+
+                 <div className={clsx(classes.item, classes.limitedCompany)}>
+                    <Link to="/services/limited-company" className={classes.itemTitle}>Limited Company</Link> 
+                </div>
+
+                 <div className={clsx(classes.item, classes.cis)}>
+                    <Link to="/services/cis" className={classes.itemTitle}>CIS</Link>
                 </div>
         </Carousel>
     )

@@ -1,5 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
-import ServiceItem1 from '../../images/service1.jpg'
+import UtrImg from '../../images/utr-number.jpg'
+import SelfAssessImg from '../../images/self-assessment.jpg'
+import AnnualReturnsImg from '../../images/annual-returns.jpg'
+import AnnualAccountsImg from '../../images/annual-accounts.jpg'
+import LimitedCompanyImg from '../../images/limited-company.jpg'
+import CisImg from '../../images/cis.jpg'
 
 const useStyles = makeStyles((theme) => ({
 
@@ -13,10 +18,6 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center'
     },
      carouselItem: {
-        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${ServiceItem1})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
         padding: '40px',
         minWidth: '365px',
         maxWidth: '365px',
@@ -25,7 +26,12 @@ const useStyles = makeStyles((theme) => ({
         minHeight: '230px',
         "&:hover": {
             "& $carTextWrap": {
-                opacity: '1'
+                transition: "opacity 2s",
+                opacity: '0.9'
+            },
+            "& $itemReviewTitle": {
+                transition: "opacity 1s",
+                opacity: 0
             }
         }
     },
@@ -50,7 +56,8 @@ const useStyles = makeStyles((theme) => ({
     },
     carItemStart: {
         color: '#fff',
-        fontSize: '90%'
+        fontSize: '90%',
+        textDecoration: 'none',
     },
     itemReviewTitle: {
         color: '#fff',
@@ -62,8 +69,48 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         height: '60px',
-        background: '#ad8e63'
+        background: '#ad8e63',
+        opacity: '0.9'
     },
+
+    // for different backgrounds
+    utrNumber: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${UtrImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    selfAssessment: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${SelfAssessImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    annualReturns: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AnnualReturnsImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    annualAccounts: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AnnualAccountsImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    limitedCompany: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${LimitedCompanyImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    cis: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${CisImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+
     [theme.breakpoints.down('sm')]: {
         carouselContainer: {
             display: 'none'

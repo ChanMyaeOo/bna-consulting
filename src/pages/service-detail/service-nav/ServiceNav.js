@@ -1,65 +1,65 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import useStyles from './styles'
 
 const ServiceNav = () => {
     const classes = useStyles();
     return (
         <ul className={classes.serviceNav}>
-                    <Link><li>
+                    <NavLink to="/services/bookkeeping"><li>
                         Bookkeeping <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/payroll">
                     <li>
-                        Payroll
+                        Payroll <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/vat">
                     <li>
-                       VAT
+                       VAT <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/self-assessment">
                     <li>
-                        Self Assessment
+                        Self Assessment <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/cis">
                     <li>
-                        CIS
+                        CIS <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
 
-                    <Link>
+                    <NavLink to="/services/limited-company">
                     <li>
-                        Limited Company
+                        Limited Company <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/annual-accounts">
                     <li>
-                        Annual Accounts
+                        Annual Accounts <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
 
-                    <Link>
+                    <NavLink to="/services/annual-returns">
                     <li>
-                        Annual Returns
+                        Annual Returns <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
 
-                    <Link>
+                    <NavLink to="/services/utr-number">
                     <li>
-                        UTR Number
+                        UTR Number <span>&gt;</span>
                     </li>
-                    </Link>
+                    </NavLink>
                 </ul>
     )
 }

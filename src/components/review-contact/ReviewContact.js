@@ -7,7 +7,7 @@ const ReviewContact = () => {
     return (
         <div className={classes.serviceContact}>
                 <h3 className={classes.requestHeader}>Contact Us Now for Quick Advice</h3>
-                <Link to="/" className={classes.requestBtn}>Request now &gt;</Link>
+                <Link to="/contact" className={classes.requestBtn}>Request now &gt;</Link>
         </div>
     )
 }
