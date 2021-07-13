@@ -28,7 +28,10 @@ const useStyles = makeStyles((theme) => ({
         height: '50px',
         color: '#fff',
         "& > li": {
-            listStyle: 'none'
+            listStyle: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            fontSize: '15px'
         }
     },
     headerBtnLinks: {
@@ -44,6 +47,12 @@ const useStyles = makeStyles((theme) => ({
                 color: '#000'
             }
         }
+    },
+
+    hdIcon: {
+        color: '#fff',
+        fontSize: '18px',
+        paddingRight: '10px'
     },
     menuIcon: {
         fontSize: '40px',
@@ -77,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     resMenu: {
         background: '#000',
         height: '100%',
-        width: '250px',
+        width: '270px',
     },
     resLogoImgWrap: {
         display: 'flex',
@@ -95,17 +104,27 @@ const useStyles = makeStyles((theme) => ({
         color: '#6b521c',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
+        alignItems: 'flex-start',
+        paddingLeft: '25px',
         "& > li": {
             listStyle: 'none',
-            fontSize: '14px'
+            fontSize: '14px',
+            display: 'flex',
+            margin: '5px 0',
         }
+    },
+    resHeaerIcon: {
+        paddingRight: '10px'
     },
     resHeaderBottom: {
         color: '#fff',
         "& > li": {
             listStyle: 'none',
-            margin: '30px'
+            margin: '30px',
+            "& > a": {
+                color: '#fff',
+                textDecoration: 'none',
+            }
         }
     },
     resHeaderSocials: {
@@ -144,6 +163,10 @@ const useStyles = makeStyles((theme) => ({
     mobMenuIcon: {
         color: '#fff',
         fontSize: '40px'
+    },
+
+    active: {
+        color: 'red'
     },
   
     [theme.breakpoints.down('md')]: {

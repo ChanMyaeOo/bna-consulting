@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -8,9 +8,11 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
+import RoomIcon from '@material-ui/icons/Room';
 import LogoImg from "../../images/bnatp.png";
 import ResLogoImg from "../../images/bna.png";
 import useStyles from "./styles";
+import './style.css'
 
 const Header = () => {
     const classes = useStyles();
@@ -43,25 +45,25 @@ const Header = () => {
 
                     <ul className={classes.resHeaderTop}>
                         <li>
-                            <PhoneAndroidIcon fontSize="small" />
+                            <PhoneAndroidIcon fontSize="small" className={classes.resHeaerIcon}/>
                             0208889991012
                         </li>
                         <li>
-                            <PhoneIcon fontSize="small" />
+                            <PhoneIcon fontSize="small" className={classes.resHeaerIcon}/>
                             0208889991012
                         </li>
                         <li>
-                            <EmailIcon fontSize="small" />
-                            info@bnaconsulting.co.uk
+                            <EmailIcon fontSize="small" className={classes.resHeaerIcon}/>
+                            info@jjukaccountancy.com
                         </li>
                     </ul>
 
                     <ul className={classes.resHeaderBottom}>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about-us">About Us</Link></li>
-                        <li>Services</li>
-                        <li>Faqs</li>
-                        <li>Contact</li>
+                        <li><Link to="/" onClick={handleCloseMenu}>Home</Link></li>
+                        <li><Link to="/about-us" onClick={handleCloseMenu}>About Us</Link></li>
+                        <li><Link to="/services" onClick={handleCloseMenu}>Services</Link></li>
+                        <li><Link to="/faqs" onClick={handleCloseMenu}>Faqs</Link></li>
+                        <li><Link to="/contact" onClick={handleCloseMenu}>Contact</Link></li>
                     </ul>
 
                     <div className={classes.resHeaderSocials}>
@@ -102,17 +104,17 @@ const Header = () => {
 
                 <div className={classes.headerLinks}>
                     <ul className={classes.headerTopLinks}>
-                        <li>info@bnaconsulting.co.uk</li>
-                        <li>0208889991012</li>
-                        <li>1 Kingdom Street, Paddington, W2 6BD</li>
+                        <li><EmailIcon className={classes.hdIcon}/> info@bnaconsulting.co.uk</li>
+                        <li><PhoneIcon className={classes.hdIcon}/> 02089919910</li>
+                        <li><RoomIcon className={classes.hdIcon}/> 1 Kingdom Street, Paddington, W2 6BD</li>
                     </ul>
 
                     <ul className={classes.headerBtnLinks}>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about-us">About Us</Link></li>
-                        <li><Link to="/services">Services</Link></li>
-                        <li><Link to="/faqs">Faqs</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li className="header-list"><NavLink exact to="/" activeClassName="active" className="header-link">Home</NavLink></li>
+                        <li><NavLink to="/about-us" activeClassName="active">About Us</NavLink></li>
+                        <li><NavLink to="/services" activeClassName="active">Services</NavLink></li>
+                        <li><NavLink to="/faqs" activeClassName="active">Faqs</NavLink></li>
+                        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
                     </ul>
                 </div>
             </div>
