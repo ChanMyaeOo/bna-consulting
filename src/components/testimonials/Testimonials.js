@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import useStyles from './styles'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
@@ -11,7 +12,7 @@ const Testimonials = () => {
         <div className={classes.testiWrapper}>
             <div className={classes.consultWrap}>
                 <h3 className={classes.consultTitle}>Your finances are in safe hands</h3>
-                <button className={classes.consultBtn}>Consult Us</button>
+                <Link to="/contact" className={classes.consultBtn}>Consult Us</Link>
             </div>
 
             <div className={classes.testimonialWrap}>

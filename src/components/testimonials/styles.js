@@ -18,8 +18,9 @@ const useStyles = makeStyles((theme) => ({
         color: '#fff'
     },
     consultBtn: {
+        textDecoration: 'none',
         height: 'fit-content',
-        padding: '15px 25px',
+        padding: '10px 20px',
         borderRadius: '30px',
         border: 'none',
         background: '#ad8e63',
