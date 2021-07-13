@@ -1,5 +1,14 @@
 import { makeStyles } from "@material-ui/core/styles";
 import ServiceItem1 from '../../images/service1.jpg'
+import UtrImg from '../../images/utr-number.jpg'
+import SelfAssessImg from '../../images/self-assessment.jpg'
+import AnnualReturnsImg from '../../images/annual-returns.jpg'
+import AnnualAccountsImg from '../../images/annual-accounts.jpg'
+import LimitedCompanyImg from '../../images/limited-company.jpg'
+import CisImg from '../../images/cis.jpg'
+import VatImg from '../../images/vat.jpg'
+import PayrollImg from '../../images/payroll.jpg'
+import BookkeepingImg from '../../images/bookkeeping.jpg'
 
 const useStyles = makeStyles((theme) => ({
     serviceTextWrap: {
@@ -12,17 +21,24 @@ const useStyles = makeStyles((theme) => ({
     },
     serviceText: {
         fontSize: '80%',
-        textTransform: 'uppercase'
+        textTransform: 'uppercase',
+        color: '#1a1e66'
     },
     serviceTitle: {
-        fontSize: '28px',
-        margin: '20px 0'
+        fontSize: '30px',
+        margin: '20px 0',
+        fontFamily: 'Playfair Display, serif',
+        color: '#1a1e66',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     serviceContent: {
         width: '60%',
         lineHeight: '1.5rem',
         textAlign: 'center',
-        fontSize: '95%'
+        fontSize: '95%',
+        color: '#1a1e66'
     },
 
     serviceItemWrap: {
@@ -35,15 +51,18 @@ const useStyles = makeStyles((theme) => ({
     serviceItem: {
         padding: '40px',
         margin: '10px',
-        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${ServiceItem1})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
         maxWidth: '300px',
         minWidth: '300px',
         "& > h3": {
             fontSize: '22px',
-            color: '#fff'
+            color: '#fff',
+            "& > a": {
+                color: '#fff',
+                textDecoration: 'none',
+                "&:hover": {
+                    color: '#ad8e63'
+                }
+            }
         },
         "& > p": {
             lineHeight: '1.5rem',
@@ -78,14 +97,76 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto'
     },
     corouselTitle: {
-        fontSize: '28px',
+        fontSize: '30px',
         minWidth: '450px',
-        margin: '0 70px 0px 30px'
+        margin: '0 70px 0px 30px',
+        fontFamily: 'Playfair Display, serif',
+        color: '#1a1e66',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     carouselContent: {
         lineHeight: '1.6rem',
         fontSize: '95%',
-        padding: '0 40px'
+        padding: '0 40px',
+        color: '#1a1e66'
+    },
+
+    // for different background
+    utrNumber: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${UtrImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    selfAssessment: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${SelfAssessImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    annualReturns: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AnnualReturnsImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    annualAccounts: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AnnualAccountsImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    limitedCompany: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${LimitedCompanyImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    cis: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${CisImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    vat: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${VatImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    payroll: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${PayrollImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+    },
+    bookkeeping: {
+        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${BookkeepingImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
     },
 
     

@@ -6,19 +6,26 @@ const useStyles = makeStyles((theme) => ({
     },
     aboutTitle: {
         fontSize: '90%',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#1a1e66'
     },
     aboutHeader: {
         fontSize: '30px',
         width: '35%',
         margin: '0 auto',
         padding: '30px 0 50px 0',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#1a1e66',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     aboutContent: {
         display: 'flex',
         width: '95%',
         margin: '0 auto',
+        color: '#1a1e66'
     },
     contentWrap: {
         paddingLeft: '40px'
@@ -48,6 +55,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '28px',
         color: '#fff',
         margin: '30px 0',
+        fontFamily: 'Playfair Display, serif',
     },
     itemContent: {
         color: '#fff',
@@ -72,11 +80,17 @@ const useStyles = makeStyles((theme) => ({
         padding: '0 60px',
         "& > p": {
             textTransform: 'uppercase',
-            fontSize: '80%'
+            fontSize: '80%',
+            color: '#1a1e66'
         },
         "& > h3": {
             fontSize: '28px',
-            margin: '15px 0'
+            margin: '15px 0',
+            fontFamily: 'Playfair Display, serif',
+            color: '#1a1e66',
+            "& > em": {
+                color: '#ad8e63'
+            }
         }
     },  
     chooseContent: {

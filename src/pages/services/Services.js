@@ -1,5 +1,6 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import clsx from 'clsx'
 import { Carousel } from "react-responsive-carousel";
 import { Grid } from "@material-ui/core";
 import { Link } from 'react-router-dom'
@@ -20,7 +21,7 @@ const Services = () => {
                 <div className={classes.serviceTextWrap}>
                     <p className={classes.serviceText}>our services</p>
                     <h3 className={classes.serviceTitle}>
-                        Get the most out of your accountants
+                        Get the most out of your <em>accountants</em>
                     </h3>
                     <p className={classes.serviceContent}>
                         So whatever support you need to get your books in order,
@@ -31,8 +32,8 @@ const Services = () => {
                 </div>
 
                 <div className={classes.serviceItemWrap}>
-                    <div className={classes.serviceItem}>
-                        <h3>UTR Number</h3>
+                    <div className={clsx(classes.serviceItem, classes.utrNumber)}>
+                        <h3><Link to="/services/utr-number">UTR Number</Link></h3>
                         <p>
                             The company Unique Taxpayer Reference (UTR) will
                             have been issued by HMRC when the company was set up
@@ -41,64 +42,64 @@ const Services = () => {
                         <Link to="/services/utr-number">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Self Assessment</h3>
+                    <div className={clsx(classes.serviceItem, classes.selfAssessment)}>
+                        <h3><Link to="/services/self-assessment">Self Assessment</Link></h3>
                         <p>
                             Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
                         <Link to="/services/self-assessment">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Annual Returns</h3>
+                    <div className={clsx(classes.serviceItem, classes.annualReturns)}>
+                        <h3><Link to="/services/annual-returns">Annual Returns</Link></h3>
                         <p>
                             Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
                         <Link to="/services/annual-returns">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Annual Accounts</h3>
+                    <div className={clsx(classes.serviceItem, classes.annualAccounts)}>
+                        <h3><Link to="/services/annual-accounts">Annual Accounts</Link></h3>
                         <p>
                             You can trust BNA Consulting to handle your accounts and having them ready to hand in for signing and filing...
                         </p>
                         <Link to="/services/annual-accounts">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Limited Company</h3>
+                    <div className={clsx(classes.serviceItem, classes.limitedCompany)}>
+                        <h3><Link to="/services/limited-company">Limited Company</Link></h3>
                         <p>
                             BNA Consulting is providing guidance on Limited Company accounting services for contractors and professional Services for Business Development and small...
                         </p>
                         <Link to="/services/limited-company">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>CIS</h3>
+                    <div className={clsx(classes.serviceItem, classes.cis)}>
+                        <h3><Link to="/services/cis">CIS</Link></h3>
                         <p>
                             Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
                         <Link to="/services/cis">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>VAT</h3>
+                    <div className={clsx(classes.serviceItem, classes.vat)}>
+                        <h3><Link to="/services/vat">VAT</Link></h3>
                         <p>
                             Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
                         <Link to="/services/vat">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Payroll</h3>
+                    <div className={clsx(classes.serviceItem, classes.payroll)}>
+                        <h3><Link to="/services/payroll">Payroll</Link></h3>
                         <p>
                             We at BNA aim to be the most affordable and reliable choice when choosing a company to process your payroll.
                         </p>
                         <Link to="/services/payroll">&gt;</Link>
                     </div>
 
-                    <div className={classes.serviceItem}>
-                        <h3>Bookkeeping</h3>
+                    <div className={clsx(classes.serviceItem, classes.bookkeeping)}>
+                        <h3><Link to="/services/bookkeeping">Bookkeeping</Link></h3>
                         <p>
                             Our goal is to help build your business and watch it grow by giving our best to keep track of...
                         </p>
@@ -109,7 +110,7 @@ const Services = () => {
                 <div className={classes.serviceCarouselWrap}>
                     <div className={classes.carouselContentWrap}>
                         <h3 className={classes.corouselTitle}>
-                            Personal Account Management
+                            Personal Account <em>Management</em>
                         </h3>
                         <p className={classes.carouselContent}>
                             Get a dedicated accountant to help with your

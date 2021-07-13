@@ -18,11 +18,13 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "55px",
         color: "#fff",
         marginLeft: "120px",
+        fontFamily: 'Playfair Display, serif'
     },
     [theme.breakpoints.down('sm')]: {
         about: {
             marginLeft: 0,
-            textAlign: 'center'
+            textAlign: 'center',
+            fontSize: '40px'
         },
         heroSection: {
             minWidth: '100%'

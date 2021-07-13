@@ -15,7 +15,7 @@ const About = () => {
             <div className={classes.aboutContentWrap}>
                 <p className={classes.aboutTitle}>LONDON BASED</p>
                 <h3 className={classes.aboutHeader}>
-                    English – Russian speaking Accountants &amp; Consultants
+                    <em>English – Russian</em> speaking Accountants &amp; Consultants
                 </h3>
 
                 <div className={classes.aboutContent}>
@@ -53,19 +53,19 @@ const About = () => {
             <div className={classes.itemWrapper}>
                 <div className={classes.aboutItemWrap}>
                     <img src={AboutItem1} alt="logo" className={classes.itemLogo}/>
-                    <h3 className={classes.itemTitle}>English and Russian Speaking Accountants</h3>
+                    <h3 className={classes.itemTitle}><em>English and Russian</em> Speaking Accountants</h3>
                     <p className={classes.itemContent}>Our highly trained, the bilingual team can help your business flourish with their specialised expertise in British taxes, bookkeeping and much more.</p>
                 </div>
 
                 <div className={classes.aboutItemWrap}>
                     <img src={AboutItem2} alt="logo" className={classes.itemLogo}/>
-                    <h3 className={classes.itemTitle}>Personal Account Management</h3>
+                    <h3 className={classes.itemTitle}><em>Personal Account</em> Management</h3>
                     <p className={classes.itemContent}>Get a dedicated accountant to help with your personalised needs and queries, so you always feel you are in safe hands.</p>
                 </div>
 
                 <div className={classes.aboutItemWrap}>
                     <img src={AboutItem3} alt="logo" className={classes.itemLogo}/>
-                    <h3 className={classes.itemTitle}>Reliable and Flexible Team</h3>
+                    <h3 className={classes.itemTitle}><em>Reliable and Flexible</em> Team</h3>
                     <p className={classes.itemContent}>Our team will work around your availability to make sure your accounts are taken care of without any hassle, so you can focus on your business.</p>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const About = () => {
                 <div className={classes.chooseTextWrap}>
                     <div className={classes.chooseHeader}>
                         <p>why choose us</p>
-                        <h3>Because at BNA CONSULTING</h3>
+                        <h3>Because at <em>BNA CONSULTING</em></h3>
                     </div>
                     <p className={classes.chooseContent}>
                         We make BNA Consulting different, Our dedicated and experienced team of English and Russian speaking accountants in London have the skills to manage every area of your accounting needs, from setting up a limited company to managing annual returns, your self-assessment and even payroll for your staff.
