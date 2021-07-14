@@ -91,6 +91,7 @@ const useStyles = makeStyles((theme) => ({
         background: "rgba(0,0,0,0.7)",
         display: 'none',
         zIndex: '1500',
+        transition: 'all 3s ease'
     },
     resMenu: {
         background: '#000',

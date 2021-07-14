@@ -26,6 +26,7 @@ const Header = () => {
         resOverlay.style.display = "block";
     };
 
+    // to handle header fixed on scroll
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
         const headerElement = document.getElementById("header")
@@ -71,11 +72,11 @@ const Header = () => {
                     </ul>
 
                     <ul className={classes.resHeaderBottom}>
-                        <li><Link to="/" onClick={handleCloseMenu}>Home</Link></li>
-                        <li><Link to="/about-us" onClick={handleCloseMenu}>About Us</Link></li>
-                        <li><Link to="/services" onClick={handleCloseMenu}>Services</Link></li>
-                        <li><Link to="/faqs" onClick={handleCloseMenu}>Faqs</Link></li>
-                        <li><Link to="/contact" onClick={handleCloseMenu}>Contact</Link></li>
+                        <li><NavLink exact to="/" onClick={handleCloseMenu}>Home</NavLink></li>
+                        <li><NavLink to="/about-us" onClick={handleCloseMenu}>About Us</NavLink></li>
+                        <li><NavLink to="/services" onClick={handleCloseMenu}>Services</NavLink></li>
+                        <li><NavLink to="/faqs" onClick={handleCloseMenu}>Faqs</NavLink></li>
+                        <li><NavLink to="/contact" onClick={handleCloseMenu}>Contact</NavLink></li>
                     </ul>
 
                     <div className={classes.resHeaderSocials}>
