@@ -25,6 +25,18 @@ const Header = () => {
         const resOverlay = document.getElementById("res-overlay");
         resOverlay.style.display = "block";
     };
+
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        const headerElement = document.getElementById("header")
+        if (scrolled > 300) {
+            headerElement.classList.add(classes.fixedHeader)
+        } else if (scrolled <= 300) {
+            headerElement.classList.remove(classes.fixedHeader)
+        }
+    };
+    
+    window.addEventListener("scroll", toggleVisible);
     return (
         <>
             {/* For iPad View */}
@@ -93,7 +105,7 @@ const Header = () => {
             </div>
 
             {/* For Laptop View */}
-            <div className={classes.header}>
+            <div className={classes.header} id="header">
                 <div className={classes.headerLogoWrap}>
                     <img
                         src={LogoImg}

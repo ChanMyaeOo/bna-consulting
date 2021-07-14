@@ -3,6 +3,15 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
     header: {
         display: 'flex',
+        zIndex: '1400',
+    },
+    fixedHeader: {
+        position: 'fixed',
+        top: 0,
+        width: '100%',
+        background: "#fff",
+        transition: 'background 0.8s ease',
+        boxShadow: '0px 2px 2px rgba(0,0,0,0.5)'
     },
     headerLogoWrap: {
         width: '25%',
