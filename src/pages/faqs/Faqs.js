@@ -14,7 +14,7 @@ const Faqs = () => {
             <div className={classes.faqsWrapper}>
                 <div className={classes.faqsHeaderWrap}>
                     <p className={classes.faqsTitle}>FAQ</p>
-                    <h3 className={classes.faqsHeader}>We are very happy for your any query</h3>
+                    <h3 className={classes.faqsHeader}>We are very happy for your any <em>query</em></h3>
                 </div>
 
                 <Grid container className={classes.faqsContentWrapper}>

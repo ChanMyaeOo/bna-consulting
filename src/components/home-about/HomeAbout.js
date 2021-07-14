@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 import CountUp from 'react-countup';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import useStyles from "./styles";
 import AboutImg from "../../images/home-about.jpg";
 
 const HomeAbout = () => {
     const classes = useStyles();
+    useEffect(() => {
+        AOS.init({
+            duration: 800
+        })
+    }, [])
     return (
         <div className={classes.about}>
             <div className={classes.aboutLeft}>
                 <p className={classes.page}>About Us</p>
                 <h2 className={classes.title}>We are here to manage your finance with <em>experience</em></h2>
+        
                 <p className={classes.content}>
                     The perfection in work and the peace of mind we deliver are
                     another key point of BNA Consulting. We are English and
@@ -47,7 +55,9 @@ const HomeAbout = () => {
             </div>
 
             <div className={classes.aboutRight}>
-                <img src={AboutImg} alt="image" className={classes.aboutImg} />
+                
+                    <img src={AboutImg} alt="image" className={classes.aboutImg} data-aos="fade-up" data-aos-once="true"/>
+                
                 <div className={classes.status}>
                     <div>
                         <div className={classes.statusNumber}><CountUp end={90} /> +</div>

@@ -21,7 +21,11 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '30px',
         color: '#1a1e66',
         margin: '15px 0 20px 0',
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     faqsContentWrapper: {
         // display: 'flex',
@@ -62,7 +66,9 @@ const useStyles = makeStyles((theme) => ({
         padding: '10px 5px',
         margin: '10px 0',
         maxWidth: '100%',
-        maxHeight: '60px'
+        maxHeight: '45px',
+        fontFamily: 'Arial',
+        minHeight: '40px'
     },
     formSubmit: {
         margin: '30px 0 40px 0',

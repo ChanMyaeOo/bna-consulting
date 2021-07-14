@@ -16,10 +16,10 @@ const Contact = () => {
             <HeroSection title="Contact us" />
             
             <div className={classes.contactWrapper}>
-                <h3 className={classes.contactTitle}>Get in touch and we'll get back to you as soon as we can. We look forward to hearing from you!</h3>
+                <h3 className={classes.contactTitle}>Get in touch and we'll get back to you as soon as we can. We look forward to <em>hearing from you!</em></h3>
                 <Grid container className={classes.contactContainer}>
                     <Grid item xl={6} lg={6} md={6} sm={12} xs={12} >
-                        <p className={classes.contactIntro}>We are experienced and qualified English and Russian speaking executive Accounting & Consulting firm based in London.</p>
+                        <p className={classes.contactIntro}>We are experienced and qualified English and Russian speaking executive Accounting &amp; Consulting firm based in London.</p>
                         <p className={classes.contactAddress}><ApartmentIcon /> One Kingdom Street, Paddington, W2 6BD</p>
                         <p className={classes.contactAddress}><PhoneIcon /> +44 208 991 991 0</p>
                         <p className={classes.contactAddress}><PhoneIcon /> +44 747 397 9774</p>

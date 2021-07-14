@@ -18,7 +18,11 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '30px',
         color: '#1a1e66',
         textAlign: 'center',
-        padding: '50px 0'
+        padding: '50px 0',
+        fontFamily: 'Playfair Display, serif',
+        "& > em": {
+            color: '#ad8e63'
+        }
     },
     contactIntro: {
         color: '#1a1e66',

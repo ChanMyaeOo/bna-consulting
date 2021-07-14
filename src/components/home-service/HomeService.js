@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import useStyles from "./styles";
 import BookkeepingImg from "../../images/accounting-2.png";
 import PayrollImg from "../../images/cheque.png";
@@ -14,6 +16,11 @@ import DocumentImg from '../../images/accounting-3.png'
 
 const HomeService = () => {
     const classes = useStyles();
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+        });
+    }, []);
     return (
         <div className={classes.homeServiceWrap}>
             <div className={classes.headerWrap}>
@@ -126,7 +133,7 @@ const HomeService = () => {
                 </div>
 
                 <div className={classes.rightServiceWrap}>
-                    <div className={classes.serviceExp}>
+                    <div className={classes.serviceExp} data-aos="fade-up" data-aos-once="true">
                             <img src={ServiceExpImg} alt="logo" />
                     </div>
 

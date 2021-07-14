@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import clsx from 'clsx'
 import { Carousel } from "react-responsive-carousel";
@@ -20,7 +20,7 @@ const Services = () => {
             <div className={classes.servicesSection}>
                 <div className={classes.serviceTextWrap}>
                     <p className={classes.serviceText}>our services</p>
-                    <h3 className={classes.serviceTitle}>
+                    <h3 className={classes.serviceTitle} >
                         Get the most out of your <em>accountants</em>
                     </h3>
                     <p className={classes.serviceContent}>
