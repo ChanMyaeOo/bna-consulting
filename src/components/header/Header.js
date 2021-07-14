@@ -12,7 +12,7 @@ import RoomIcon from '@material-ui/icons/Room';
 // import LogoImg from "../../images/bnatp.png";
 import LogoImg from '../../images/jua-logo.jpg'
 // import ResLogoImg from "../../images/bna.png";
-import ResLogoImg from '../../images/jua-logo.jpg'
+import ResLogoImg from '../../images/res-logo.jpg'
 import useStyles from "./styles";
 import './style.css'
 
@@ -32,10 +32,13 @@ const Header = () => {
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
         const headerElement = document.getElementById("header")
+        const resHeaderElement = document.getElementById("mobResMenuWrapper")
         if (scrolled > 300) {
             headerElement.classList.add(classes.fixedHeader)
+            resHeaderElement.classList.add(classes.fixedHeader)
         } else if (scrolled <= 300) {
             headerElement.classList.remove(classes.fixedHeader)
+            resHeaderElement.classList.remove(classes.fixedHeader)
         }
     };
     
@@ -51,11 +54,13 @@ const Header = () => {
                         onClick={handleCloseMenu}
                     />
                     <div className={classes.resLogoImgWrap}>
+                        <Link to="/" onClick={handleCloseMenu} >
                         <img
                             src={ResLogoImg}
                             alt="logo"
                             className={classes.resLogoImg}
                         />
+                        </Link>
                     </div>
 
                     <ul className={classes.resHeaderTop}>
@@ -91,7 +96,7 @@ const Header = () => {
             </div>
 
             {/* For mobile view */}
-            <div className={classes.mobResMenuWrapper}>
+            <div className={classes.mobResMenuWrapper} id="mobResMenuWrapper">
                 <div className={classes.mobResMenu}>
                     <div>
                         <MenuIcon className={classes.mobMenuIcon} onClick={handleOpenMenu} />
@@ -110,11 +115,13 @@ const Header = () => {
             {/* For Laptop View */}
             <div className={classes.header} id="header">
                 <div className={classes.headerLogoWrap}>
+                    <Link to="/">
                     <img
                         src={LogoImg}
                         alt="logo"
                         className={classes.headerLogo}
                     />
+                    </Link>
                 </div>
 
                 <div className={classes.headerLinks}>

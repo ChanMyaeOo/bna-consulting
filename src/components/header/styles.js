@@ -3,9 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
     header: {
         display: 'flex',
-        zIndex: '1400',
     },
     fixedHeader: {
+        zIndex: '1400',
         position: 'fixed',
         top: 0,
         width: '100%',
@@ -70,12 +70,12 @@ const useStyles = makeStyles((theme) => ({
         left: 0,
         display: 'none',
         zIndex: '1000',
-        color: '#fff'
+        color: '#fff',
     },
 
     closeMenu: {
         fontSize: '50px',
-        color: '#fff',
+        color: '#ad8e63',
         cursor: 'pointer'
     },
 
@@ -92,9 +92,9 @@ const useStyles = makeStyles((theme) => ({
         transition: 'all 3s ease'
     },
     resMenu: {
-        background: '#000',
+        background: '#fff',
         height: '100%',
-        width: '270px',
+        width: '310px',
     },
     resLogoImgWrap: {
         display: 'flex',
@@ -102,8 +102,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '25px'
     },
     resLogoImg: {
-        width: '190px',
-        height: '100px',
+        
     },
     contactSocial: {
         lineHeight: '14px'
@@ -130,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
             listStyle: 'none',
             margin: '30px',
             "& > a": {
-                color: '#fff',
+                color: '#000',
                 textDecoration: 'none',
             }
         }
@@ -146,12 +145,13 @@ const useStyles = makeStyles((theme) => ({
 
     // For mobile view
     mobResMenuWrapper: {
-        display: 'none'
+        display: 'none',
     },
     mobResMenu: {
-        height: '62px',
+        // height: '62px',
+        height: 'auto',
         width: '100%',
-        background: '#000',
+        background: '#fff',
         display: 'flex',
         "& > div": {
             display: 'flex',
@@ -164,17 +164,13 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto'
     },
     mobLogoImg: {
-        width: '95px',
-        height: '50px',
+        // width: '95px',
+        // height: '50px',
         margin: '0 auto'
     },
     mobMenuIcon: {
-        color: '#fff',
+        color: '#ad8e63',
         fontSize: '40px'
-    },
-
-    active: {
-        color: 'red'
     },
   
     [theme.breakpoints.down('md')]: {

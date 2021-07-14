@@ -39,12 +39,12 @@ const Footer = () => {
 
             <div className={classes.footerSocialWrap}>
                 <p>Follow us:</p>
-                <div>
+                
                 <LinkedInIcon className={classes.fSocial} />
                 <YouTubeIcon className={classes.fSocial}/>
                 <InstagramIcon className={classes.fSocial}/>
                 <FacebookIcon className={classes.fSocial}/>
-                </div>
+                
             </div>
             </div>
 

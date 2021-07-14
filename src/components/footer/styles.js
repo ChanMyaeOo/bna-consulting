@@ -71,13 +71,18 @@ const useStyles = makeStyles((theme) => ({
        },
        footerTextWrap: {
            width: '100%',
-           marginLeft: 0
+           marginLeft: 0,
+           marginBottom: '25px',
        },
        footerContactWrap: {
-           width: '100%'
+           width: '100%',
+           marginBottom: '25px'
        },
        footerSocialWrap: {
            width: '100%'
+       },
+       footerText: {
+           marginTop: '20px'
        }
 
    }
