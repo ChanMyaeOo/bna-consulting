@@ -1,5 +1,6 @@
 import React from 'react'
-import Logo from '../../images/bna-1.png'
+import { Link } from 'react-router-dom'
+import Logo from '../../images/footer-logo.jpg'
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import HomeIcon from '@material-ui/icons/Home';
@@ -15,7 +16,7 @@ const Footer = () => {
         <div className={classes.footerWrap}>
             <div className={classes.footer}>
             <div className={classes.footerTextWrap}>
-                <img src={Logo} alt="logo" />
+                <Link to="/"><img src={Logo} alt="logo" /></Link>
                 <p className={classes.footerText}>We are experienced and qualified English and Russian speaking executive Accounting &amp; Consulting firm based in London.</p>
             </div>
 
@@ -38,10 +39,12 @@ const Footer = () => {
 
             <div className={classes.footerSocialWrap}>
                 <p>Follow us:</p>
+                <div>
                 <LinkedInIcon className={classes.fSocial} />
                 <YouTubeIcon className={classes.fSocial}/>
                 <InstagramIcon className={classes.fSocial}/>
                 <FacebookIcon className={classes.fSocial}/>
+                </div>
             </div>
             </div>
 

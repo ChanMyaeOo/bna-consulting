@@ -10,18 +10,16 @@ const useStyles = makeStyles((theme) => ({
         top: 0,
         width: '100%',
         background: "#fff",
-        transition: 'background 0.8s ease',
         boxShadow: '0px 2px 2px rgba(0,0,0,0.5)'
     },
     headerLogoWrap: {
-        width: '25%',
+        width: '28%',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     headerLogo: {
-        width: '140px',
-        height: '85px',
-        marginLeft: '50px'
+    
     },
     headerLinks: {
         width: '75%',

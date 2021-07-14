@@ -9,8 +9,10 @@ import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import RoomIcon from '@material-ui/icons/Room';
-import LogoImg from "../../images/bnatp.png";
-import ResLogoImg from "../../images/bna.png";
+// import LogoImg from "../../images/bnatp.png";
+import LogoImg from '../../images/jua-logo.jpg'
+// import ResLogoImg from "../../images/bna.png";
+import ResLogoImg from '../../images/jua-logo.jpg'
 import useStyles from "./styles";
 import './style.css'
 

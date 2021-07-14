@@ -1,6 +1,9 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
+    homeVendor: {
+        background: '#f2f2f2'
+    },
     vendorWrap: {
         height: '200px',
         display: 'flex',

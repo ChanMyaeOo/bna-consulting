@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
    footer: {
-       background: '#000',
+       background: '#fff',
        display: 'flex',
        justifyContent: 'space-around',
        color: '#fff',
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
        height: '240px'
    },
    footerText: {
-       color: '#fff',
+       color: '#000',
        lineHeight: '1.5rem',
        fontSize: '14px'
    },
@@ -31,7 +31,8 @@ const useStyles = makeStyles((theme) => ({
    footerSocialWrap: {
        width: '25%',
        "& > p": {
-           marginBottom: '10px',
+           marginBottom: '15px',
+           color: '#000'
        }
    },
    contact: {
@@ -40,12 +41,17 @@ const useStyles = makeStyles((theme) => ({
        alignItems: 'center',
        "& > p": {
            marginLeft: '10px',
+           color: '#000'
        }
    },
    fSocial: {
-       padding: '6px',
-       color: '#fff !important',
-       cursor: 'pointer'
+       paddingRight: '10px',
+       cursor: 'pointer',
+       fontSize: '35px',
+       "&:hover": {
+           color: '#000 !important',
+           transition: 'color 1s'
+       }
    },
    footerCopyright: {
        background: '#272727',
