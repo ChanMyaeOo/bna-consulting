@@ -75,7 +75,8 @@ const useStyles = makeStyles((theme) => ({
         padding: '12px 0',
         width: '40%',
         color: '#7E6A46',
-        fontSize: '16px'
+        fontSize: '16px',
+        cursor: 'pointer'
     },
     [theme.breakpoints.down('md')]: {
         faqsFormWrapper: {

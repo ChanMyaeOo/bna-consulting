@@ -73,7 +73,8 @@ const useStyles = makeStyles((theme) => ({
         margin: '25px 0',
         background: '#ad8e63',
         border: 'none',
-        color: '#fff'
+        color: '#fff',
+        cursor: 'pointer'
     },
     contactCarousel: {
         width: '100%',

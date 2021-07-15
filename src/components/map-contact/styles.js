@@ -46,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '47%',
         background: '#ad8e63',
         color: '#fff',
-        border: 'none'
+        border: 'none',
+        cursor: 'pointer'
     },
     formAction: {
         background: '#fff',
