@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import useStyles from "./styles";
-import AboutImg from "../../images/home-about.jpg";
+import AboutImg from "../../images/home-about-img.jpg";
 
 const HomeAbout = () => {
     const classes = useStyles();

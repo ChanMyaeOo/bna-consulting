@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import HeroSection from "../../components/hero-section/HeroSection";
 import ReviewContact from "../../components/review-contact/ReviewContact";
-import AboutImg from "../../images/home-about.jpg";
+import AboutImg from "../../images/home-about-img.jpg";
 import AboutItem1 from "../../images/about-item1.png";
 import AboutItem2 from "../../images/about-item2.png";
 import AboutItem3 from "../../images/about-item3.png";

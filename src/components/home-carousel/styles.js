@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import HeroImg1 from '../../images/hero1.jpg'
+import HeroImg1 from '../../images/car-img.jpg'
 import HeroImg2 from '../../images/hero2.jpg'
 
 const useStyles = makeStyles((theme) => ({
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     headerIntro: {
-        color: "#d1ae7c",
+        color: "#e5c42d",
         letterSpacing: '5px',
         wordSpacing: '3px',
         textTransform: "uppercase",
@@ -48,10 +48,10 @@ const useStyles = makeStyles((theme) => ({
     },
     headerBtn: {
         padding: '12px 25px',
-        borderRadius: '10px',
+        borderRadius: '25px',
         outline: 'none',
         border: 'none',
-        background: '#7e6a46',
+        background: '#e5c42d',
         color: '#fff',
         opacity: '0.9',
         marginBottom: "30px",

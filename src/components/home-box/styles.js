@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     homeStory: {
-        background: "#6a592f",
+        background: "#013356",
         padding: "30px",
         height: "auto",
     },
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     homeApproach: {
-        background: "#7e6a46",
+        background: "#003d69",
         padding: "30px",
         height: "auto",
     },
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     homeMission: {
-        background: "#ad8e63",
+        background: "#014373",
         padding: "30px",
         height: "auto",
     },

@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'center',
-        background: '#000',
+        background: '#1e415d',
         height: '50px',
         color: '#fff',
         "& > li": {
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
             fontWeight: 'bold',
             "& > a": {
                 textDecoration: 'none',
-                color: '#000'
+                color: '#1e415d'
             }
         }
     },
