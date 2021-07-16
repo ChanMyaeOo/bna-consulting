@@ -1,10 +1,11 @@
 import { makeStyles } from "@material-ui/core/styles";
-import AboutUsImg from "../../images/about-us.jpg";
+import AboutUsImg from "../../images/hero-section.jpg";
 
 const useStyles = makeStyles((theme) => ({
     heroSection: {
         height: "300px",
-        background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AboutUsImg})`,
+        // background: `linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),url(${AboutUsImg})`,
+        backgroundImage: `url(${AboutUsImg})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
         backgroundPositionY: "25%",
