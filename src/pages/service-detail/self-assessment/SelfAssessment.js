@@ -21,11 +21,11 @@ const SelfAssessment = () => {
 
             <div className={classes.serviceContent}>
                 <h3>Self Assessment</h3>
-                <p>BNA Consulting has worked with companies that are required to file a corporation tax return in various forms together with supplementary pages, which we also help form. Our clients will receive guidance with full accounts and computations with the Inland Revenue. Deadlines apply to the filing of CTSA returns and the payment of corporation tax, which our English and Russian speaking experts have years of experience with here at BNA Consulting.</p>
+                <p>JJ UK Consulting has worked with companies that are required to file a corporation tax return in various forms together with supplementary pages, which we also help form. Our clients will receive guidance with full accounts and computations with the Inland Revenue. Deadlines apply to the filing of CTSA returns and the payment of corporation tax, which our English and Russian speaking experts have years of experience with here at JJ UK Consulting.</p>
                 <br/>
-                <p>BNA Consulting also warns that penalties apply for late submission of the return of £100 if it is up to three months late and £200 if the return is over three months late. We have also noticed that additional tax geared penalties apply when the return is either six or twelve months late</p>
+                <p>JJ UK Consulting also warns that penalties apply for late submission of the return of £100 if it is up to three months late and £200 if the return is over three months late. We have also noticed that additional tax geared penalties apply when the return is either six or twelve months late</p>
                 <br />
-                <p>This is why BNA Consulting experts can prepare tax returns in a timely and efficient manner. Our English and Russian speaking bookkeepers will also calculate your company’s tax liability and assist with the calculation of any quarterly instalment payments. Be sure to count on BNA Consulting when it comes to a detailed overview.</p>
+                <p>This is why JJ UK Consulting experts can prepare tax returns in a timely and efficient manner. Our English and Russian speaking bookkeepers will also calculate your company’s tax liability and assist with the calculation of any quarterly instalment payments. Be sure to count on JJ UK Consulting when it comes to a detailed overview.</p>
 
             </div>
         </div>

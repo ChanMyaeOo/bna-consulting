@@ -23,12 +23,12 @@ const Payroll = () => {
 
             <div className={classes.serviceContent}>
                 <h3>Payroll</h3>
-                <p>When looking for a payroll service in London, you must consider a reliable and punctual partner, and you will find that in us at BNA Consulting. We here at BNA Consulting are among the leading payroll processing consultants offering office-based as well as remote services.</p>
+                <p>When looking for a payroll service in London, you must consider a reliable and punctual partner, and you will find that in us at JJ UK Consulting. We here at JJ UK Consulting are among the leading payroll processing consultants offering office-based as well as remote services.</p>
                 <br/>
-                <p>When working with us you will gain numerous advantages which you gain by entrusting your payroll to our expert staff. If you are in need of someone to process your payroll as part of your office staff or to leave it to us in its entirety, BNA Consulting is at your disposal to offer a, with support from English and Russian speaking accountants in London.</p>
+                <p>When working with us you will gain numerous advantages which you gain by entrusting your payroll to our expert staff. If you are in need of someone to process your payroll as part of your office staff or to leave it to us in its entirety, JJ UK Consulting is at your disposal to offer a, with support from English and Russian speaking accountants in London.</p>
                 <br/>
                 <h4>What is the Best Option for Your Business?</h4>
-                <p>Due to various changes in tax laws, payroll related office work has become more complicated than ever. This is exactly why so many businesses need the services of experienced accounting companies like BNA Consulting. We aim to provide a no-nonsense service which will keep up with any of your demands, in a reliable and professional manner.</p>
+                <p>Due to various changes in tax laws, payroll related office work has become more complicated than ever. This is exactly why so many businesses need the services of experienced accounting companies like JJ UK Consulting. We aim to provide a no-nonsense service which will keep up with any of your demands, in a reliable and professional manner.</p>
                 <br/>
                 <p>We also employ the latest in computer software payroll technologies in order to expedite the process. We can work alongside you at your own office, or you can entrust your payroll keeping to our office staff. Whichever option you opt for, one thing is sure, you will get the best possible service we can offer and you will be free to pursue your business goal knowing that you have our support.</p>
             </div>
