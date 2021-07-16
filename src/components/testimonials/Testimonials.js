@@ -25,14 +25,14 @@ const Testimonials = () => {
                    <div className={classes.leftTestimonial}>
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
-                           <p className={classes.testiText}>BNA Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
+                           <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
                            <p className={classes.testiName}>Zack</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                        
                         <div className={classes.testi2Wrap}>
                            <img src={TestLogo2} alt="logo" className={classes.testLogo2} />
-                           <p className={classes.testiText}>We are happy to be with BNA Consulting as they are always on time with deadlines and deliver what they promise.</p>
+                           <p className={classes.testiText}>We are happy to be with JJ UK Consulting as they are always on time with deadlines and deliver what they promise.</p>
                            <p className={classes.testiName}>Andrew</p>
                            <p className={classes.testiPosition}>Marketing Manager</p>
                        </div>
@@ -41,14 +41,14 @@ const Testimonials = () => {
                     <div className={classes.leftTestimonial}>
                         <div className={classes.testi2Wrap}>
                            <img src={TestLogo2} alt="logo" className={classes.testLogo2} />
-                           <p className={classes.testiText}>We are happy to be with BNA Consulting as they are always on time with deadlines and deliver what they promise.</p>
+                           <p className={classes.testiText}>We are happy to be with JJ UK Consulting as they are always on time with deadlines and deliver what they promise.</p>
                            <p className={classes.testiName}>Andrew</p>
                            <p className={classes.testiPosition}>Marketing Manager</p>
                        </div>
 
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
-                           <p className={classes.testiText}>BNA Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
+                           <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
                            <p className={classes.testiName}>Zack</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
@@ -62,14 +62,14 @@ const Testimonials = () => {
                    
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
-                           <p className={classes.testiText}>BNA Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
+                           <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
                            <p className={classes.testiName}>Zack</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                        
                         <div className={classes.testi2Wrap}>
                            <img src={TestLogo2} alt="logo" className={classes.testLogo2} />
-                           <p className={classes.testiText}>We are happy to be with BNA Consulting as they are always on time with deadlines and deliver what they promise.</p>
+                           <p className={classes.testiText}>We are happy to be with JJ UK Consulting as they are always on time with deadlines and deliver what they promise.</p>
                            <p className={classes.testiName}>Andrew</p>
                            <p className={classes.testiPosition}>Marketing Manager</p>
                        </div>
@@ -78,14 +78,14 @@ const Testimonials = () => {
                     
                         <div className={classes.testi2Wrap}>
                            <img src={TestLogo2} alt="logo" className={classes.testLogo2} />
-                           <p className={classes.testiText}>We are happy to be with BNA Consulting as they are always on time with deadlines and deliver what they promise.</p>
+                           <p className={classes.testiText}>We are happy to be with JJ UK Consulting as they are always on time with deadlines and deliver what they promise.</p>
                            <p className={classes.testiName}>Andrew</p>
                            <p className={classes.testiPosition}>Marketing Manager</p>
                        </div>
 
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
-                           <p className={classes.testiText}>BNA Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
+                           <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
                            <p className={classes.testiName}>Zack</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>

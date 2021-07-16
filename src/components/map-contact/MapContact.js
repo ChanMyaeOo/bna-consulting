@@ -69,7 +69,7 @@ const MapContact = () => {
                     Looking for <em>advice?</em>
                 </h3>
                 <p className={classes.contactText}>
-                    Want to learn more about what BNA Consulting can do for you?
+                    Want to learn more about what JJ UK Consulting can do for you?
                     Get in touch today by filling in the form below and the team
                     will get back to you shortly.
                 </p>

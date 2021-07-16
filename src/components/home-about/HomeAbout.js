@@ -21,7 +21,7 @@ const HomeAbout = () => {
         
                 <p className={classes.content}>
                     The perfection in work and the peace of mind we deliver are
-                    another key point of BNA Consulting. We are English and
+                    another key point of JJ UK Consulting. We are English and
                     Russian Accountant in London to serve you according to your
                     needs and flexibility. This personalises approach has set us
                     apart from others in the same industry.

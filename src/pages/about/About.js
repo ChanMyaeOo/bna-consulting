@@ -56,15 +56,15 @@ const About = () => {
                         </p>
                         <br />
                         <p>
-                            At BNA CONSULTING we aim to provide peace of mind
+                            At JJ UK CONSULTING we aim to provide peace of mind
                             with perfection in work. We can rest assure you that
-                            if you are with BNA CONSULTING your accounting
+                            if you are with JJ UK CONSULTING your accounting
                             matters are in safe hands.
                         </p>
                         <br />
                         <p>
                             Also, the perfection in work and the peace of mind
-                            we deliver are another key point of BNA Consulting.
+                            we deliver are another key point of JJ UK Consulting.
                             We serve you according to your needs and
                             flexibility.
                         </p>
@@ -133,11 +133,11 @@ const About = () => {
                     <div className={classes.chooseHeader}>
                         <p>why choose us</p>
                         <h3>
-                            Because at <em>BNA CONSULTING</em>
+                            Because at <em>JJ UK CONSULTING</em>
                         </h3>
                     </div>
                     <p className={classes.chooseContent}>
-                        We make BNA Consulting different, Our dedicated and
+                        We make JJ UK Consulting different, Our dedicated and
                         experienced team of English and Russian speaking
                         accountants in London have the skills to manage every
                         area of your accounting needs, from setting up a limited
@@ -169,7 +169,7 @@ const About = () => {
                 <div className={classes.uniqueItem}>
                     <h3>Fair pricing</h3>
                     <p>
-                        BNA Consulting offers competitive and affordable pricing
+                        JJ UK Consulting offers competitive and affordable pricing
                         based on your needs, So now you can get the best
                         possible service at the best price.
                     </p>

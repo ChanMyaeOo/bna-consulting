@@ -65,12 +65,8 @@ const Header = () => {
 
                     <ul className={classes.resHeaderTop}>
                         <li>
-                            <PhoneAndroidIcon fontSize="small" className={classes.resHeaerIcon}/>
-                            0208889991012
-                        </li>
-                        <li>
                             <PhoneIcon fontSize="small" className={classes.resHeaerIcon}/>
-                            0208889991012
+                            +44 20 3830 8882
                         </li>
                         <li>
                             <EmailIcon fontSize="small" className={classes.resHeaerIcon}/>
@@ -126,9 +122,9 @@ const Header = () => {
 
                 <div className={classes.headerLinks}>
                     <ul className={classes.headerTopLinks}>
-                        <li><EmailIcon className={classes.hdIcon}/> info@bnaconsulting.co.uk</li>
-                        <li><PhoneIcon className={classes.hdIcon}/> 02089919910</li>
-                        <li><RoomIcon className={classes.hdIcon}/> 1 Kingdom Street, Paddington, W2 6BD</li>
+                        <li><EmailIcon className={classes.hdIcon}/> info@jjukaccountancy.com</li>
+                        <li><PhoneIcon className={classes.hdIcon}/> +44 20 3830 8882</li>
+                        <li><RoomIcon className={classes.hdIcon}/> 368 Caledonian Rd London N1 1DU</li>
                     </ul>
 
                     <ul className={classes.headerBtnLinks}>

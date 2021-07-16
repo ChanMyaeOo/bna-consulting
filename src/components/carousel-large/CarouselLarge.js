@@ -85,7 +85,7 @@ const CarouselLarge = () => {
                     <div className={classes.carTextWrap}>
                         <h3 className={classes.carItemTitle}>Annual Accounts</h3>
                         <p className={classes.carItemText}>
-                            You can trust BNA Consulting to handle your accounts and having...
+                            You can trust JJ UK Consulting to handle your accounts and having...
                         </p>
                         <Link to="/services/annual-accounts" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>
@@ -104,7 +104,7 @@ const CarouselLarge = () => {
                     <div className={classes.carTextWrap}>
                         <h3 className={classes.carItemTitle}>Limited Company</h3>
                         <p className={classes.carItemText}>
-                            BNA Consulting is providing guidance on Limited Company accounting services for...
+                            JJ UK Consulting is providing guidance on Limited Company accounting services for...
                         </p>
                         <Link to="/services/limited-company" className={classes.carItemStart}>Let's start &gt;</Link>
                     </div>

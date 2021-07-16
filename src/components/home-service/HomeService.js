@@ -39,7 +39,7 @@ const HomeService = () => {
                         <div>
                             <p className={classes.serviceSubTitle}>Bookkeeping</p>
                             <p className={classes.serviceSubContent}>
-                                BNA Consulting offers services for all
+                                JJ UK Consulting offers services for all
                                 Bookkeeping needs for our clients. We can help
                                 you hand in hand to make the most of your time.
                             </p>
@@ -53,7 +53,7 @@ const HomeService = () => {
                         <div>
                             <p className={classes.serviceSubTitle}>Annual Accounts</p>
                             <p className={classes.serviceSubContent}>
-                                Producing annual accounts can be a complex task, BNA Consulting professionals assure you the best advice regardless of the type of company you are and will prepare the set of annual accounts for you.
+                                Producing annual accounts can be a complex task, JJ UK Consulting professionals assure you the best advice regardless of the type of company you are and will prepare the set of annual accounts for you.
                             </p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const HomeService = () => {
                             <p className={classes.serviceSubContent2}>
                                 We offer you the top-notch services of Payroll
                                 in London both in house and remotely. You can
-                                trust BNA Consulting professionals to manage,
+                                trust JJ UK Consulting professionals to manage,
                                 prepare you payslips and even mail them to your
                                 employees.
                             </p>
@@ -144,7 +144,7 @@ const HomeService = () => {
                         <div>
                             <p className={classes.serviceSubTitle2}>Limited Company</p>
                             <p className={classes.serviceSubContent2}>
-                                At BNA Consulting our multilingual executives can understand your needs and goals more precisely, providing services such as opening the company and dealing with all the legal documents to keep things right from the start.
+                                At JJ UK Consulting our multilingual executives can understand your needs and goals more precisely, providing services such as opening the company and dealing with all the legal documents to keep things right from the start.
                             </p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ const HomeService = () => {
                         <div>
                             <p className={classes.serviceSubTitle}>Documents for Home Office</p>
                             <p className={classes.serviceSubContent}>
-                                BNA Consulting can help you with all the documents requested by the Home office in required format and scenarios.
+                                JJ UK Consulting can help you with all the documents requested by the Home office in required format and scenarios.
                             </p>
                         </div>
                     </div>

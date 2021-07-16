@@ -64,17 +64,13 @@ const Contact = () => {
                             based in London.
                         </p>
                         <p className={classes.contactAddress}>
-                            <ApartmentIcon /> One Kingdom Street, Paddington, W2
-                            6BD
+                            <ApartmentIcon /> 368 Caledonian Rd London N1 1DU
                         </p>
                         <p className={classes.contactAddress}>
-                            <PhoneIcon /> +44 208 991 991 0
+                            <PhoneIcon /> +44 20 3830 8882
                         </p>
                         <p className={classes.contactAddress}>
-                            <PhoneIcon /> +44 747 397 9774
-                        </p>
-                        <p className={classes.contactAddress}>
-                            <EmailIcon /> info@bnaconsulting.co.uk
+                            <EmailIcon /> info@jjukaccountancy.com
                         </p>
                     </Grid>
 

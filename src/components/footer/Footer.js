@@ -28,7 +28,7 @@ const Footer = () => {
 
                 <div className={classes.contact}>
                     <EmailIcon className={classes.socialIcon}/>
-                    <p>info@bnaconsulting.co.uk</p>
+                    <p>info@jjukaccountancy.com</p>
                 </div>
 
                 <div className={classes.contact}>
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
 
             <div className={classes.footerCopyright}>
-                2020 © All rights reserved by BNA Consulting
+                2020 © All rights reserved by JJ UK Accountancy
             </div>
         </div>
     )

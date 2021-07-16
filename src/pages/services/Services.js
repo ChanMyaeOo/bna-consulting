@@ -61,7 +61,7 @@ const Services = () => {
                     <div className={clsx(classes.serviceItem, classes.annualAccounts)}>
                         <h3><Link to="/services/annual-accounts">Annual Accounts</Link></h3>
                         <p>
-                            You can trust BNA Consulting to handle your accounts and having them ready to hand in for signing and filing...
+                            You can trust JJ UK Consulting to handle your accounts and having them ready to hand in for signing and filing...
                         </p>
                         <Link to="/services/annual-accounts">&gt;</Link>
                     </div>
@@ -69,7 +69,7 @@ const Services = () => {
                     <div className={clsx(classes.serviceItem, classes.limitedCompany)}>
                         <h3><Link to="/services/limited-company">Limited Company</Link></h3>
                         <p>
-                            BNA Consulting is providing guidance on Limited Company accounting services for contractors and professional Services for Business Development and small...
+                            JJ UK Consulting is providing guidance on Limited Company accounting services for contractors and professional Services for Business Development and small...
                         </p>
                         <Link to="/services/limited-company">&gt;</Link>
                     </div>
@@ -93,7 +93,7 @@ const Services = () => {
                     <div className={clsx(classes.serviceItem, classes.payroll)}>
                         <h3><Link to="/services/payroll">Payroll</Link></h3>
                         <p>
-                            We at BNA aim to be the most affordable and reliable choice when choosing a company to process your payroll.
+                            We at JJ UK aim to be the most affordable and reliable choice when choosing a company to process your payroll.
                         </p>
                         <Link to="/services/payroll">&gt;</Link>
                     </div>
