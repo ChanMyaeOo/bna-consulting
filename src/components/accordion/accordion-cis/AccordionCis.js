@@ -57,7 +57,7 @@ export default function SimpleAccordion() {
                             <li>alterations, repairs and decorating</li>
                         </ul>
                         <br/>
-                        <p>In addition to our experience, we at BNA Consulting know that you don’t have to register if you do one of the following jobs:</p>
+                        <p>In addition to our experience, we at JJ UK Consulting know that you don’t have to register if you do one of the following jobs:</p>
                         <br/>
                         <ul className={classes.cisList}>
                             <li>scaffolding hire (with no labour)</li>

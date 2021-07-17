@@ -45,7 +45,7 @@ export default function SimpleAccordion() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography >
-                        <p>Our expert accountant at BNA Consulting have often been asked what self assessment is, and the simplest way to put it is that it is a tax return is a form on which you must give details of your income and expenses, if asked to do so by HM Revenue and Customs (HMRC). The tax return is then used to calculate the amount of tax that you are due to pay. We must also mention that if you fall into any of these categories, you may need to submit a Self Assessment Tax Return form:</p>
+                        <p>Our expert accountant at JJ UK Consulting have often been asked what self assessment is, and the simplest way to put it is that it is a tax return is a form on which you must give details of your income and expenses, if asked to do so by HM Revenue and Customs (HMRC). The tax return is then used to calculate the amount of tax that you are due to pay. We must also mention that if you fall into any of these categories, you may need to submit a Self Assessment Tax Return form:</p>
                         <br/>
                         <ul className={classes.selfAssessList}>
                             <li>Are Self Employed (including CIS card holders)</li>
@@ -72,7 +72,7 @@ export default function SimpleAccordion() {
                 <AccordionDetails>
                     <Typography>
                         <h4>Have you ever thought that you might be paying too much tax?</h4>
-                        <p>BNA Consulting is there to allay your worries. We ensure that that you are almost guaranteed tax refund if you satisfy one of the following criteria:</p>
+                        <p>JJ UK Consulting is there to allay your worries. We ensure that that you are almost guaranteed tax refund if you satisfy one of the following criteria:</p>
                         <br/>
                         <ul className={classes.selfAssessList}>
                             <li>You have not worked full tax year</li>

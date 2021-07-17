@@ -37,16 +37,16 @@ export default function SimpleAccordion() {
                     id="panel1a-header"
                 >
                     <Typography className={classes.heading}>
-                        BNA VAT Experts at Your Side
+                        JJ UK VAT Experts at Your Side
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography >
-                        <p>The most crucial elements of the business are to file the VAT returns before or on the due date. BNA Consulting is there to help you with VAT returns service,  any tasks that require expert care or a thorough approach to details. This will allow you and your employees to focus on the work.</p>
+                        <p>The most crucial elements of the business are to file the VAT returns before or on the due date. JJ UK Consulting is there to help you with VAT returns service,  any tasks that require expert care or a thorough approach to details. This will allow you and your employees to focus on the work.</p>
                         <br/>
-                        <p>BNA Consulting can skillfully assist you in every step of the way, through the whole process since the laws are ever-changing and expanding, you will need our guiding hand.</p>
+                        <p>JJ UK Consulting can skillfully assist you in every step of the way, through the whole process since the laws are ever-changing and expanding, you will need our guiding hand.</p>
                         <br/>
-                        <p>At BNA Consulting, we pride ourselves on being always informed on any recent laws and thus we are happy and able to answer any of the questions. BNA Consulting can provide VAT returns service to review the work your bookkeeping department has done or complete your VAT returns in their stead.</p>
+                        <p>At JJ UK Consulting, we pride ourselves on being always informed on any recent laws and thus we are happy and able to answer any of the questions. JJ UK Consulting can provide VAT returns service to review the work your bookkeeping department has done or complete your VAT returns in their stead.</p>
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -63,7 +63,7 @@ export default function SimpleAccordion() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography >
-                        <p>We at BNA Consulting specialise in VAT, which is among the most complex files to process. We have experience with the compiling of VAT and the patience when working on HMRC related paperwork.</p>
+                        <p>We at JJ UK Consulting specialise in VAT, which is among the most complex files to process. We have experience with the compiling of VAT and the patience when working on HMRC related paperwork.</p>
                         <br/>
                         <p>We aim to help your business needs by being there for you by providing professional advice based on our vast experience.</p>
                     </Typography>

@@ -37,16 +37,16 @@ export default function SimpleAccordion() {
                     id="panel1a-header"
                 >
                     <Typography className={classes.heading}>
-                        BNA's Adaptable Remote Service
+                        JJ UK's Adaptable Remote Service
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography >
-                        <p>BNA Consulting is there to ensure that you receive additional support for Business Development and small business start-ups by offering remote payroll service support. All we require of you is that you provide us with the necessary information, from which we will be able to calculate the salary on any basis you prefer-. BNA Consulting always ensures that your company payslips are prepared that they are mailed directly to your staff on time.</p>
+                        <p>JJ UK Consulting is there to ensure that you receive additional support for Business Development and small business start-ups by offering remote payroll service support. All we require of you is that you provide us with the necessary information, from which we will be able to calculate the salary on any basis you prefer-. JJ UK Consulting always ensures that your company payslips are prepared that they are mailed directly to your staff on time.</p>
                         <br/>
-                        <p>This is as simple as it gets. It is our opinion that your veteran staff should not be tasked with tedious tasks such as payslip preparation since they could be growing your business elsewhere. This is what BNA Consulting plays a pivotal role in greasing the processes of your company by taking care of minute, but still very important tasks.</p>
+                        <p>This is as simple as it gets. It is our opinion that your veteran staff should not be tasked with tedious tasks such as payslip preparation since they could be growing your business elsewhere. This is what JJ UK Consulting plays a pivotal role in greasing the processes of your company by taking care of minute, but still very important tasks.</p>
                         <br/>
-                        <p>We at BNA aim to be the most affordable and reliable choice when choosing a company to process your payroll.</p>
+                        <p>We at JJ UK aim to be the most affordable and reliable choice when choosing a company to process your payroll.</p>
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -63,7 +63,7 @@ export default function SimpleAccordion() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography >
-                        <p>Start-ups and small businesses are the future of the country, this is why BNA consulting strives to offer additional benefits to these budding industries. Processing the payroll in a small business or start-up is in no way easier than in a large corporation, this is why we offer to do those services within London.</p>
+                        <p>Start-ups and small businesses are the future of the country, this is why JJ UK consulting strives to offer additional benefits to these budding industries. Processing the payroll in a small business or start-up is in no way easier than in a large corporation, this is why we offer to do those services within London.</p>
                         <br/>
                         <p>We offer various services, including monitoring services to keep tabs on your payroll information and to make sure that your money is going where it should. O expert professionals will process sensible information that will assuredly not leave the 4 walls of your office. Your documents will be secured and you will have the benefit of working together with our veteran staff.</p>
                     </Typography>

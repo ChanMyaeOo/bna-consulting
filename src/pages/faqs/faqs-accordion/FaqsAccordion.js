@@ -48,7 +48,7 @@ export default function SimpleAccordion() {
             </p>
             <br/>
             <p className={classes.accrContent}>
-            Once you have your National Insurance Number, you can register as self-employed. Once you’re registered you’ll be given a Unique Taxpayer Reference (UTR). Keep your UTR safe – you’ll need it when it comes to completing your Self Assessment tax return. HMRC will then use the information you’ve given, including you National Insurance Number and earnings, to set you up with the right tax code and arrange how much you owe in National Insurance contributions. If you’re not sure you’re on the right tax code or need help registering, get in touch with BNA Consulting today.
+            Once you have your National Insurance Number, you can register as self-employed. Once you’re registered you’ll be given a Unique Taxpayer Reference (UTR). Keep your UTR safe – you’ll need it when it comes to completing your Self Assessment tax return. HMRC will then use the information you’ve given, including you National Insurance Number and earnings, to set you up with the right tax code and arrange how much you owe in National Insurance contributions. If you’re not sure you’re on the right tax code or need help registering, get in touch with JJ UK Consulting today.
             </p>
           </Typography>
         </AccordionDetails>

@@ -49,7 +49,7 @@ const HomeAbout = () => {
 
                 <div>
                     <p>
-                        Call to ask <Link to="/contact" className={classes.askQus}>any question&nbsp;</Link> <strong className={classes.phTxt}>0208 991 991 0</strong> or <strong className={classes.phTxt}>07473 979 774</strong>
+                        Call to ask <Link to="/contact" className={classes.askQus}>any question&nbsp;</Link> &nbsp;<strong className={classes.phTxt}>+44 20 3830 8882</strong>
                     </p>
                 </div>
             </div>
