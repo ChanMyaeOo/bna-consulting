@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import useStyles from "./styles";
 import BookkeepingImg from "../../images/accounting-2.png";
 import PayrollImg from "../../images/cheque.png";
-import ServiceExpImg from '../../images/h4-about1-2.jpg'
+import ServiceExpImg from '../../images/service-exp.jpg'
 import AnnualAccountImg from '../../images/annual-report (1).png'
 import VatImg from '../../images/tax.png'
 import AnnualReturnImg from '../../images/annual-report.png'

@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import ContactImg from '../../images/home-contact.jpg'
+import ContactImg from '../../images/home-contact-bg.jpg'
 
 const useStyles = makeStyles((theme) => ({
     homeContact: {

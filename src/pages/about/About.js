@@ -24,8 +24,7 @@ const About = () => {
                 <p className={classes.aboutTitle}>LONDON BASED</p>
 
                 <h3 className={classes.aboutHeader}>
-                    <em>English – Russian</em> speaking Accountants &amp;
-                    Consultants
+                   Accountants &amp; Consultants
                 </h3>
 
                 <div className={classes.aboutContent}>

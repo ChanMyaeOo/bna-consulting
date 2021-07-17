@@ -23,7 +23,7 @@ const Footer = () => {
             <div className={classes.footerContactWrap}>
                 <div className={classes.contact}>
                     <PhoneIcon className={classes.socialIcon} />
-                    <p>+44 208 991 991 0</p>
+                    <p>+44 20 3830 8882</p>
                 </div>
 
                 <div className={classes.contact}>
@@ -33,7 +33,7 @@ const Footer = () => {
 
                 <div className={classes.contact}>
                     <HomeIcon className={classes.socialIcon}/>
-                    <p>One Kingdom Street, Paddington, W2 6BD</p>
+                    <p>368 Caledonian Rd London N1 1DU</p>
                 </div>
             </div>
 

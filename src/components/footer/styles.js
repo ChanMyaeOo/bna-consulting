@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
        }
    },
    footerCopyright: {
-       background: '#272727',
+       background: '#1e415d',
        display: 'flex',
        justifyContent: 'center',
        alignItems: 'center',
