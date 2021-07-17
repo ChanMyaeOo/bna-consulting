@@ -1,11 +1,9 @@
 import React from 'react'
 import HeroSection from '../../../components/hero-section/HeroSection'
 import ServiceNav from '../service-nav/ServiceNav'
-import Accordion from '../../../components/accordion/Accordion'
 import CarouselLarge from '../../../components/carousel-large/CarouselLarge'
 import CarouselSmall from '../../../components/carousel-small/CarouselSmall'
 import ReviewContact from '../../../components/review-contact/ReviewContact'
-import AccordionUtr from '../../../components/accordion/accordion-utr/AccordionUtr'
 import AccordionCis from '../../../components/accordion/accordion-cis/AccordionCis'
 import useStyles from './styles'
 

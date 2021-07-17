@@ -3,7 +3,6 @@ import { Grid } from "@material-ui/core";
 import emailjs from "emailjs-com";
 import LeafLetMap from "../leaflet-map/LeafLetMap";
 import useStyles from "./styles";
-import CallMissedOutgoingIcon from "@material-ui/icons/CallMissedOutgoing";
 
 const MapContact = () => {
     const classes = useStyles();
@@ -46,7 +45,6 @@ const MapContact = () => {
         <Grid container className={classes.mapContact}>
             <Grid
                 item
-                xs={6}
                 lg={6}
                 md={6}
                 sm={12}
@@ -58,7 +56,6 @@ const MapContact = () => {
 
             <Grid
                 item
-                xs={6}
                 lg={6}
                 md={6}
                 sm={12} 

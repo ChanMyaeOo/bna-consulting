@@ -1,8 +1,6 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import clsx from 'clsx'
-import { Carousel } from "react-responsive-carousel";
-import { Grid } from "@material-ui/core";
 import { Link } from 'react-router-dom'
 import HeroSection from "../../components/hero-section/HeroSection";
 import MapContact from '../../components/map-contact/MapContact'

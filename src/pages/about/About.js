@@ -32,7 +32,7 @@ const About = () => {
                     <div className={classes.imgWrap} data-aos="fade-up" data-aos-once="true">
                         <img
                             src={AboutImg}
-                            alt="image"
+                            alt="img"
                             className={classes.aboutImg}
                         />
                     </div>

@@ -5,13 +5,10 @@ import CloseIcon from "@material-ui/icons/Close";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import RoomIcon from '@material-ui/icons/Room';
-// import LogoImg from "../../images/bnatp.png";
 import LogoImg from '../../images/jua-logo.jpg'
-// import ResLogoImg from "../../images/bna.png";
 import ResLogoImg from '../../images/res-logo.jpg'
 import useStyles from "./styles";
 import './style.css'

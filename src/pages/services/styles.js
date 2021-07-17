@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core/styles";
-import ServiceItem1 from '../../images/service1.jpg'
 import UtrImg from '../../images/utr-number.jpg'
 import SelfAssessImg from '../../images/self-assessment.jpg'
 import AnnualReturnsImg from '../../images/annual-returns.jpg'

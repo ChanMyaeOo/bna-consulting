@@ -56,7 +56,7 @@ const HomeAbout = () => {
 
             <div className={classes.aboutRight}>
                 
-                    <img src={AboutImg} alt="image" className={classes.aboutImg} data-aos="fade-up" data-aos-once="true"/>
+                    <img src={AboutImg} alt="about img" className={classes.aboutImg} data-aos="fade-up" data-aos-once="true"/>
                 
                 <div className={classes.status}>
                     <div>

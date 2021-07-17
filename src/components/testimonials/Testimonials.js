@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import useStyles from './styles'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import TestLogo1 from '../../images/test-logo1.jpg'
-import TestLogo2 from '../../images/test-logo2.png'
+import TestLogo1 from '../../images/testi1.jpg'
+import TestLogo2 from '../../images/testi2.jpg'
 
 const Testimonials = () => {
     const classes = useStyles();
@@ -26,7 +26,7 @@ const Testimonials = () => {
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
                            <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
-                           <p className={classes.testiName}>Zack</p>
+                           <p className={classes.testiName}>Katy</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                        
@@ -49,7 +49,7 @@ const Testimonials = () => {
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
                            <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
-                           <p className={classes.testiName}>Zack</p>
+                           <p className={classes.testiName}>Katy</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                    </div>
@@ -63,7 +63,7 @@ const Testimonials = () => {
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
                            <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
-                           <p className={classes.testiName}>Zack</p>
+                           <p className={classes.testiName}>Katy</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                        
@@ -86,7 +86,7 @@ const Testimonials = () => {
                        <div className={classes.testi1Wrap}>
                            <img src={TestLogo1} alt="logo" className={classes.testLogo1} />
                            <p className={classes.testiText}>JJ UK Consulting has supported my company for a number if years, they are extremely reliable and always available to us when needed.</p>
-                           <p className={classes.testiName}>Zack</p>
+                           <p className={classes.testiName}>Katy</p>
                            <p className={classes.testiPosition}>Director</p>
                        </div>
                    
